@@ -151,6 +151,7 @@ NLP/
 * **Submitted by:**
   - **Dinesh Kumar JB** - `23MIA1126`
   - **Bharath Vikaraman E** - `23MIA1059`
+  - **Sanjay k** - `23MIA1060`
 * **Project Guide:**
   - **Dr. Manjula V**, Associate Professor Senior, SCOPE
 * **Department:** Integrated M.Tech. in Computer Science and Engineering with Specialization in Business Analytics

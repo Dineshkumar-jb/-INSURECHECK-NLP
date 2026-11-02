@@ -1,0 +1,17 @@
+policy_id,document_filename,accepted_clauses_count,Waiting Periods,Sub-Limits & Caps,Non-Payable Items & Consumables,Co-Payment Mandates,Standard Coverage
+POLICY_001,1.bgr-lt-pw-753144328371.pdf,36,0,2,13,0,21
+POLICY_002,1ec297da7a914c9aafa0bd1dd4ff3f07.pdf,15,1,0,14,0,0
+POLICY_004,5.bgr---terrorism-wording-740467532511.pdf,3,0,0,3,0,0
+POLICY_005,90ade7e39d5e481f9aeb772a19a30234.pdf,41,16,1,16,3,5
+POLICY_006,ADAKVI9_04.18_enGB.pdf,8,2,0,2,0,4
+POLICY_007,HDFC-Group-Health-Insurance_Policy Wording.pdf,39,6,2,8,0,23
+POLICY_009,Twowheeler-Addons-671038810446.pdf,6,1,0,5,0,0
+POLICY_010,UNIHLIP22139V032122_HEALTH2152.pdf,38,2,3,19,0,14
+POLICY_011,chomp-pw-433457127673.pdf,39,17,0,12,0,10
+POLICY_012,credit linked .pdf,2,1,0,1,0,0
+POLICY_013,myhealth-medisure-super-top-up-insurance-569138917326.pdf,32,10,4,4,2,12
+POLICY_014,policy-wordings---loan-protect.pdf,20,2,0,17,0,1
+POLICY_015,policy-wordings_hca-shakti-605012200456.pdf,81,20,6,25,2,28
+POLICY_016,pradhan-mantri-suraksha-bima-yojana-(pmsby)(1)-443784640034.pdf,9,0,0,6,0,3
+POLICY_017,private-car-Addons-879219051916.pdf,26,2,2,18,0,4
+POLICY_018,standalone-motor-own-damage-cover-private-cars-318519217227.pdf,7,0,0,7,0,0

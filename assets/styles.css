@@ -1,0 +1,855 @@
+/* ==========================================================================
+   InsureCheck-NLP: Dark Premium Design System (SaaS Production Grade)
+   Inspired by Linear, Vercel, Stripe, and Supabase UI architectures.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  /* Palette: Dark Neutral & Rich Charcoal Surfaces */
+  --bg-app: #0B0E14;
+  --bg-sidebar: #0D121D;
+  --bg-card: #121826;
+  --bg-card-elevated: #161F32;
+  --bg-card-hover: #1A253C;
+  --bg-input: #0E1422;
+  --bg-surface-glass: rgba(18, 24, 38, 0.75);
+
+  /* Borders & Dividers */
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-medium: rgba(255, 255, 255, 0.14);
+  --border-highlight: rgba(99, 102, 241, 0.4);
+  --border-focus: #6366F1;
+
+  /* Typography Colors */
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --text-dim: #475569;
+
+  /* Accent & Status Palettes */
+  --accent-primary: #6366F1;       /* Indigo */
+  --accent-secondary: #3B82F6;     /* Blue */
+  --accent-cyan: #06B6D4;          /* Cyan */
+  --accent-gradient: linear-gradient(135deg, #6366F1 0%, #3B82F6 50%, #06B6D4 100%);
+  --accent-glow: rgba(99, 102, 241, 0.25);
+
+  --risk-high: #F43F5E;            /* Rose */
+  --risk-high-bg: rgba(244, 63, 94, 0.12);
+  --risk-high-border: rgba(244, 63, 94, 0.35);
+
+  --risk-med: #F59E0B;             /* Amber */
+  --risk-med-bg: rgba(245, 158, 11, 0.12);
+  --risk-med-border: rgba(245, 158, 11, 0.35);
+
+  --risk-low: #10B981;             /* Emerald */
+  --risk-low-bg: rgba(16, 185, 129, 0.12);
+  --risk-low-border: rgba(16, 185, 129, 0.35);
+
+  /* Geometry & Shadows */
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-pill: 9999px;
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 4px 20px -2px rgba(0, 0, 0, 0.45);
+  --shadow-lg: 0 10px 30px -4px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 24px -4px rgba(99, 102, 241, 0.25);
+
+  /* Transitions */
+  --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
+  --duration-normal: 0.22s;
+}
+
+/* ==========================================================================
+   Global Base & Typography
+   ========================================================================== */
+html, body, [class*="css"] {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  color: var(--text-primary);
+  letter-spacing: -0.01em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.stApp {
+  background-color: var(--bg-app) !important;
+  background-image: 
+    radial-gradient(circle at 15% 10%, rgba(99, 102, 241, 0.05) 0%, transparent 40%),
+    radial-gradient(circle at 85% 60%, rgba(6, 182, 212, 0.04) 0%, transparent 40%) !important;
+  background-attachment: fixed !important;
+}
+
+/* Clean up standard Streamlit spacing */
+.block-container {
+  padding-top: 2rem !important;
+  padding-bottom: 3.5rem !important;
+  max-width: 1440px !important;
+}
+
+/* Hide Streamlit default header/footer branding cleanly */
+header[data-testid="stHeader"] {
+  background-color: transparent !important;
+}
+footer {
+  display: none !important;
+}
+
+/* ==========================================================================
+   Top Navigation Bar (SaaS Navbar Component)
+   ========================================================================== */
+.saas-navbar {
+  background: var(--bg-surface-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.75rem;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+  animation: saasFadeIn 0.5s var(--ease-spring);
+}
+
+.saas-navbar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--accent-gradient);
+}
+
+.navbar-brand-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.brand-icon-wrapper {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.2) 0%, rgba(59, 130, 246, 0.1) 100%);
+  border: 1px solid rgba(99, 102, 241, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  box-shadow: 0 0 16px rgba(99, 102, 241, 0.2);
+}
+
+.brand-titles {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-main-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.brand-version-badge {
+  font-size: 0.7rem;
+  font-weight: 600;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 0.15rem 0.5rem;
+  border-radius: var(--radius-pill);
+  background: rgba(99, 102, 241, 0.15);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  color: #A5B4FC;
+  text-transform: uppercase;
+}
+
+.brand-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-top: 0.1rem;
+}
+
+.navbar-metrics-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.status-beacon-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  color: #34D399;
+  font-size: 0.78rem;
+  font-weight: 600;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 0.4rem 0.85rem;
+  border-radius: var(--radius-pill);
+}
+
+.pulse-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #10B981;
+  box-shadow: 0 0 8px #10B981;
+  animation: pulseBeacon 2s infinite ease-in-out;
+}
+
+.info-metric-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-pill);
+}
+
+/* ==========================================================================
+   Sidebar Styling
+   ========================================================================== */
+section[data-testid="stSidebar"] {
+  background-color: var(--bg-sidebar) !important;
+  border-right: 1px solid var(--border-subtle) !important;
+}
+
+section[data-testid="stSidebar"] .block-container {
+  padding-top: 2rem !important;
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important;
+}
+
+/* Sidebar Section Headers */
+.sidebar-section-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-top: 1.25rem;
+  margin-bottom: 0.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+/* Radio Input Redesign */
+div[data-testid="stRadio"] > label {
+  font-size: 0.82rem !important;
+  font-weight: 600 !important;
+  color: var(--text-secondary) !important;
+  margin-bottom: 0.4rem !important;
+}
+
+div[data-testid="stRadio"] div[role="radiogroup"] {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+div[data-testid="stRadio"] label[data-baseweb="radio"] {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border-subtle) !important;
+  border-radius: var(--radius-sm) !important;
+  padding: 0.55rem 0.85rem !important;
+  margin: 0 !important;
+  transition: all var(--duration-normal) var(--ease-spring) !important;
+  cursor: pointer;
+}
+
+div[data-testid="stRadio"] label[data-baseweb="radio"]:hover {
+  background: var(--bg-card-hover) !important;
+  border-color: var(--border-medium) !important;
+}
+
+/* Text Area Redesign */
+.stTextArea textarea {
+  background-color: var(--bg-input) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-subtle) !important;
+  border-radius: var(--radius-md) !important;
+  font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.82rem !important;
+  line-height: 1.5 !important;
+  padding: 0.85rem !important;
+  transition: border-color var(--duration-normal) ease, box-shadow var(--duration-normal) ease !important;
+}
+
+.stTextArea textarea:focus {
+  border-color: var(--border-focus) !important;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2) !important;
+  outline: none !important;
+}
+
+/* Select Box & Dropdown Redesign */
+div[data-baseweb="select"] {
+  background-color: var(--bg-input) !important;
+  border-radius: var(--radius-sm) !important;
+  border: 1px solid var(--border-subtle) !important;
+  transition: border-color var(--duration-normal) ease !important;
+}
+
+div[data-baseweb="select"]:hover {
+  border-color: var(--border-medium) !important;
+}
+
+div[data-baseweb="select"] * {
+  color: var(--text-primary) !important;
+}
+
+div[data-baseweb="popover"], div[data-baseweb="menu"] {
+  background-color: var(--bg-card-elevated) !important;
+  border: 1px solid var(--border-medium) !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: var(--shadow-lg) !important;
+}
+
+/* File Uploader Redesign */
+div[data-testid="stFileUploader"] {
+  background: var(--bg-card) !important;
+  border: 1px dashed rgba(99, 102, 241, 0.4) !important;
+  border-radius: var(--radius-md) !important;
+  padding: 1rem !important;
+  transition: all var(--duration-normal) ease !important;
+}
+
+div[data-testid="stFileUploader"]:hover {
+  background: var(--bg-card-hover) !important;
+  border-color: var(--accent-primary) !important;
+}
+
+/* Slider Controls */
+div[data-testid="stSlider"] div[data-baseweb="slider"] {
+  margin-top: 0.5rem !important;
+}
+
+div[data-testid="stSlider"] div[role="slider"] {
+  background-color: var(--accent-primary) !important;
+  border: 2px solid var(--text-primary) !important;
+  box-shadow: 0 0 8px rgba(99, 102, 241, 0.5) !important;
+}
+
+/* ==========================================================================
+   Buttons (Linear/SaaS Style)
+   ========================================================================== */
+.stButton > button {
+  background: var(--bg-card-elevated) !important;
+  color: var(--text-primary) !important;
+  border: 1px solid var(--border-medium) !important;
+  border-radius: var(--radius-sm) !important;
+  font-weight: 500 !important;
+  font-size: 0.85rem !important;
+  padding: 0.55rem 1rem !important;
+  letter-spacing: -0.01em !important;
+  transition: all var(--duration-normal) var(--ease-spring) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+.stButton > button:hover {
+  background: var(--bg-card-hover) !important;
+  border-color: var(--border-highlight) !important;
+  color: #FFFFFF !important;
+  transform: translateY(-1px) !important;
+  box-shadow: var(--shadow-md) !important;
+}
+
+.stButton > button:active {
+  transform: translateY(0px) !important;
+}
+
+/* Primary Action Scan Button (High Tech Gradient) */
+.primary-scan-btn .stButton > button {
+  background: var(--accent-gradient) !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  font-weight: 600 !important;
+  font-size: 0.95rem !important;
+  padding: 0.75rem 1.25rem !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: 0 4px 20px -2px rgba(99, 102, 241, 0.4) !important;
+}
+
+.primary-scan-btn .stButton > button:hover {
+  box-shadow: 0 6px 24px 0 rgba(99, 102, 241, 0.6) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* Download Action Buttons */
+.stDownloadButton > button {
+  background: var(--bg-card) !important;
+  color: var(--text-secondary) !important;
+  border: 1px solid var(--border-subtle) !important;
+  border-radius: var(--radius-sm) !important;
+  font-weight: 500 !important;
+  font-size: 0.82rem !important;
+  padding: 0.5rem 0.9rem !important;
+  transition: all var(--duration-normal) ease !important;
+}
+
+.stDownloadButton > button:hover {
+  background: var(--bg-card-elevated) !important;
+  border-color: var(--accent-secondary) !important;
+  color: var(--text-primary) !important;
+  transform: translateY(-1px) !important;
+}
+
+/* ==========================================================================
+   Tabs Navigation (Modern Underlined SaaS Tabs)
+   ========================================================================== */
+div[data-baseweb="tab-list"] {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border-subtle) !important;
+  border-radius: var(--radius-lg) !important;
+  padding: 0.35rem !important;
+  gap: 0.35rem !important;
+  margin-bottom: 1.75rem !important;
+}
+
+button[data-baseweb="tab"] {
+  background: transparent !important;
+  border: none !important;
+  border-radius: var(--radius-sm) !important;
+  color: var(--text-muted) !important;
+  font-size: 0.85rem !important;
+  font-weight: 500 !important;
+  padding: 0.55rem 1.1rem !important;
+  transition: all var(--duration-normal) ease !important;
+}
+
+button[data-baseweb="tab"]:hover {
+  color: var(--text-primary) !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+  background: var(--bg-card-elevated) !important;
+  color: var(--text-primary) !important;
+  font-weight: 600 !important;
+  border: 1px solid var(--border-subtle) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+div[data-baseweb="tab-highlight"] {
+  display: none !important;
+}
+
+/* ==========================================================================
+   Hero Claim Risk Assessment Container
+   ========================================================================== */
+.risk-hero-card {
+  background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-elevated) 100%);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  box-shadow: var(--shadow-md);
+  position: relative;
+  overflow: hidden;
+  animation: saasFadeIn 0.4s var(--ease-spring);
+}
+
+.risk-hero-card.high-risk {
+  border-color: var(--risk-high-border);
+  box-shadow: 0 8px 30px -8px rgba(244, 63, 94, 0.2);
+}
+
+.risk-hero-card.med-risk {
+  border-color: var(--risk-med-border);
+  box-shadow: 0 8px 30px -8px rgba(245, 158, 11, 0.2);
+}
+
+.risk-hero-card.low-risk {
+  border-color: var(--risk-low-border);
+  box-shadow: 0 8px 30px -8px rgba(16, 185, 129, 0.2);
+}
+
+.risk-gauge-box {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.score-circle-badge {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'JetBrains Mono', monospace;
+  box-shadow: var(--shadow-md);
+  position: relative;
+}
+
+.score-circle-badge.high {
+  background: radial-gradient(circle, rgba(244, 63, 94, 0.2) 0%, rgba(244, 63, 94, 0.05) 70%);
+  border: 3px solid var(--risk-high);
+  color: var(--risk-high);
+}
+
+.score-circle-badge.med {
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.2) 0%, rgba(245, 158, 11, 0.05) 70%);
+  border: 3px solid var(--risk-med);
+  color: var(--risk-med);
+}
+
+.score-circle-badge.low {
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, rgba(16, 185, 129, 0.05) 70%);
+  border: 3px solid var(--risk-low);
+  color: var(--risk-low);
+}
+
+.score-circle-badge .val {
+  font-size: 1.85rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.score-circle-badge .denom {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.risk-info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.risk-tier-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-pill);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  width: fit-content;
+}
+
+.risk-tier-pill.high {
+  background: var(--risk-high-bg);
+  border: 1px solid var(--risk-high-border);
+  color: #FDA4AF;
+}
+
+.risk-tier-pill.med {
+  background: var(--risk-med-bg);
+  border: 1px solid var(--risk-med-border);
+  color: #FCD34D;
+}
+
+.risk-tier-pill.low {
+  background: var(--risk-low-bg);
+  border: 1px solid var(--risk-low-border);
+  color: #6EE7B7;
+}
+
+.risk-headline {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.risk-explanation {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  max-width: 620px;
+  line-height: 1.45;
+}
+
+/* ==========================================================================
+   Stat Metric Cards
+   ========================================================================== */
+.metric-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.metric-card-pro {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  padding: 1.15rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--duration-normal) var(--ease-spring);
+  position: relative;
+  overflow: hidden;
+}
+
+.metric-card-pro:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-medium);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.metric-card-pro::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--border-subtle);
+  transition: background 0.2s ease;
+}
+
+.metric-card-pro:hover::before {
+  background: var(--accent-gradient);
+}
+
+.metric-label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.metric-title {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.metric-icon {
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+
+.metric-value-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+}
+
+.metric-num {
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-primary);
+  line-height: 1.1;
+}
+
+.metric-subtext {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 0.35rem;
+}
+
+/* ==========================================================================
+   Exclusion Trap Cards (Accordion Redesign)
+   ========================================================================== */
+div[data-testid="stExpander"] {
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border-subtle) !important;
+  border-radius: var(--radius-md) !important;
+  margin-bottom: 0.85rem !important;
+  transition: all var(--duration-normal) ease !important;
+  overflow: hidden !important;
+}
+
+div[data-testid="stExpander"]:hover {
+  border-color: var(--border-medium) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+div[data-testid="stExpander"] details {
+  background: transparent !important;
+}
+
+div[data-testid="stExpander"] summary {
+  background: var(--bg-card) !important;
+  color: var(--text-primary) !important;
+  font-weight: 600 !important;
+  font-size: 0.92rem !important;
+  padding: 0.9rem 1.25rem !important;
+  border-bottom: 1px solid transparent !important;
+  transition: background var(--duration-normal) ease !important;
+}
+
+div[data-testid="stExpander"] summary:hover {
+  background: var(--bg-card-elevated) !important;
+  color: #FFFFFF !important;
+}
+
+div[data-testid="stExpander"] details[open] summary {
+  border-bottom-color: var(--border-subtle) !important;
+  background: var(--bg-card-elevated) !important;
+}
+
+div[data-testid="stExpander"] div[data-testid="stExpanderDetails"] {
+  padding: 1.25rem !important;
+  background: var(--bg-app) !important;
+}
+
+/* Exclusion Detail Container */
+.exclusion-card-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.clause-box {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-sm);
+  padding: 1rem;
+}
+
+.clause-box-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.legal-text-content {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: #CBD5E1;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: var(--radius-xs);
+  padding: 0.75rem;
+  border-left: 2px solid var(--accent-secondary);
+}
+
+.plain-text-content {
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: var(--text-primary);
+  background: rgba(99, 102, 241, 0.05);
+  border-radius: var(--radius-xs);
+  padding: 0.75rem;
+  border-left: 2px solid var(--accent-primary);
+}
+
+.exclusion-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border-subtle);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* ==========================================================================
+   Dataframes & Tables
+   ========================================================================== */
+div[data-testid="stDataFrame"] {
+  border: 1px solid var(--border-subtle) !important;
+  border-radius: var(--radius-md) !important;
+  overflow: hidden !important;
+  background: var(--bg-card) !important;
+  box-shadow: var(--shadow-sm) !important;
+}
+
+/* ==========================================================================
+   Animations
+   ========================================================================== */
+@keyframes saasFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulseBeacon {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.4);
+    opacity: 0.6;
+  }
+}
+
+/* ==========================================================================
+   Responsive Breakpoints
+   ========================================================================== */
+@media (max-width: 992px) {
+  .metric-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .exclusion-card-body {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .metric-grid {
+    grid-template-columns: 1fr;
+  }
+  .saas-navbar {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar-metrics-group {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .risk-hero-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

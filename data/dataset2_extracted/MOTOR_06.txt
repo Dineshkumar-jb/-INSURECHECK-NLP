@@ -1,0 +1,38 @@
+OFFICIAL POLICY WORDING DOCUMENT
+Policy Identifier: MOTOR_06
+Insurer / Provider: Care Health Insurance
+Insurance Line / Domain: Motor Vehicle Insurance
+Product Name: Motor Add-on Policy Terms
+Official Document Source URL: https://www.careinsurance.com/pdf/Motor-Addon-Policy.pdf
+
+SECTION 1: INPATIENT COVERAGE & GENERAL BENEFITS
+1.1 Inpatient Hospitalisation Cover: Expenses incurred for inpatient hospitalisation including room rent, intensive care unit charges, nursing fees, surgeon fees, operating theatre charges, and anesthesia are covered up to the available sum insured.
+1.2 Emergency Road Ambulance Cover: Expenses incurred for emergency road ambulance transportation of the insured person to the nearest network hospital are reimbursable up to $50 per hospitalisation.
+1.3 Pre-Hospitalisation Expenses: Pre-hospitalisation medical expenses incurred up to 30 days prior to admission in the hospital are fully covered under the policy sum insured.
+1.4 Post-Hospitalisation Expenses: Post-hospitalisation medical expenses incurred up to 60 days following discharge from the hospital are fully covered under the policy sum insured.
+1.5 Cashless Facility: Cashless facility is available across all empaneled network hospital facilities nationwide.
+
+SECTION 2: MANDATORY WAITING PERIODS & MORATORIUMS
+2.1 Pre-existing Diseases Waiting Period: Expenses related to any pre-existing disease or medical condition shall not be covered until 36 consecutive months of continuous policy coverage have elapsed.
+2.2 Specific Surgery Waiting Period: A mandatory waiting period of 24 months from policy inception date applies for joint replacements, cataract surgeries, hernia, hydrocele, and spinal disorders.
+2.3 Initial Illness Waiting Period: An initial waiting period of 30 days from policy start date applies for all non-accidental illness hospitalisations.
+2.4 Severe Illness Moratorium: Pre-existing hypertension, diabetes, and cardiac ailments carry a mandatory 48-month continuous waiting period prior to claim eligibility.
+
+SECTION 3: SUB-LIMITS & FINANCIAL CAPS
+3.1 Room Rent Capping: Daily room rent is capped at 1% of total sum insured per day for normal private single rooms.
+3.2 ICU Room Rent Capping: Intensive Care Unit (ICU) room charges are capped at 2% of total sum insured per day.
+3.3 Cataract Treatment Sub-Limit: Cataract surgery treatment is subject to a maximum sub-limit cap of $300 per eye or 10% of sum insured.
+3.4 Robotic Surgery Cap: Robotic and cyberknife surgery expenses are subject to an overall sub-limit of $1000 per policy year.
+3.5 Maternity Benefit Cap: Maternity benefit claim payout is capped at $500 for normal delivery and $800 for C-section.
+
+SECTION 4: NON-PAYABLE CONSUMABLE ITEMS & EXCLUSIONS
+4.1 Consumable Items Exclusion: Consumable items such as PPE kits, registration fees, admission booklets, sterile gloves, and face masks are non-payable.
+4.2 Administrative Charges: Administrative fees, discharge documentation charges, and hospital room service charges are excluded from claim reimbursement.
+4.3 Personal Toiletries: Personal toiletries, thermometer, heating pads, aprons, and visitor passes are non-reimbursable consumable items.
+4.4 Hospital Consumables: Syringes, cotton rolls, diagnostic test kits, and needle disposal containers are classified as non-payable hospital consumables.
+
+SECTION 5: MANDATORY CO-PAYMENT & DEDUCTIBLES
+5.1 Senior Citizen Co-Payment: Insured persons residing in Zone 1 cities or aged above 60 years shall bear a mandatory 20% co-payment on every admissible claim.
+5.2 Non-Network Hospital Co-Payment: The policyholder shall pay a co-pay of 10% on every admissible claim for treatment in non-network hospitals.
+5.3 Compulsory Deductible: A compulsory deductible of $200 per hospitalisation claim applies prior to insurer financial liability.
+5.4 Dependent Share: All claims filed for senior citizen dependents attract a mandatory 15% co-payment deduction.

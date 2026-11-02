@@ -1,0 +1,718 @@
+--- PAGE 1 ---
+CREDIT-LINKED LIFE INSURANCE 
+        Guidance Note 
+      
+ 
+ 
+ 
+June 2019
+
+--- PAGE 2 ---
+2
+
+--- PAGE 3 ---
+3
+
+--- PAGE 4 ---
+4 
+ 
+ 
+Contents 
+Preface .................................................................................................................................................... 6 
+1. Defining Product Requirement ....................................................................................................... 8 
+2. Selection of Insurer ......................................................................................................................... 9 
+3. Contract with Insurer .................................................................................................................... 10 
+4. Orientation to Employees ............................................................................................................. 11 
+5. Key Processes vis a vis Customer .................................................................................................. 12 
+On-boarding ...................................................................................................................................... 12 
+Claim processing ............................................................................................................................... 13 
+Grievance redressal .......................................................................................................................... 14 
+Others ............................................................................................................................................... 14 
+6. Key Processes vis a vis Insurer ...................................................................................................... 15 
+On-boarding ...................................................................................................................................... 15 
+Claim processing ............................................................................................................................... 15 
+Others ............................................................................................................................................... 15 
+7. Oversight ....................................................................................................................................... 16 
+Reporting .......................................................................................................................................... 16 
+Monitoring ........................................................................................................................................ 16 
+8. Annexures ..................................................................................................................................... 18 
+Annex 1: Parameters to guide the selection of Insurer .................................................................... 18 
+Annex 2: Format for gathering information for all insured persons ................................................ 19 
+Annex 3: Format for gathering information on claim processing ..................................................... 20 
+Annex 4: Relevant regulatory and industry guidelines ..................................................................... 21
+
+--- PAGE 5 ---
+5
+
+--- PAGE 6 ---
+6 
+ 
+Preface 
+  
+Generally, Credit-liked Life Insurance (CLI) is a life insurance policy linked to credit given to customer(s) 
+from a Provider in order to secure the customer’s debt in case of death of the customer(s). This kind 
+of term insurance is common in case of lender -borrower relationship as it provides the borrower 
+crucial asset protection for the family. For the lender such insurance coverage protects the credit from 
+extreme-event shocks without resorting to measures such as sale of customer’s assets which could be 
+time-consuming and very hard from the customer’s perspective.  
+ 
+In case of micro-credit in India, un-secured credit is given to low-income households and only backed 
+by social collateral in the form of group’s moral guarantee. For micro-credit population segment who 
+mostly lack assets and insurance coverage, death of an earning family member can be calamitous. 
+Therefore, a life insurance coverage is a much-needed financial instrument to deal with such shocks.  
+ 
+In last two decades of micro-credit sector in India, Providers of micro-credit and Insurers have evolved 
+a cost-effective product and model to meet this need. Under this model, the micro-credit Provider 
+(such as NBFC-MFIs), either as master policy h older or insurance agent, facilitates the customer and 
+her key family member (usually spouse) to buy a life insurance cover which is linked to her credit 
+(amount disbursed or loan outstanding). Insurance is bundled with micro -credit. In case of death of 
+customer or her spouse, insurance pays the micro -credit Provider for outstanding with balance 
+coverage amount being given to the customer or her nominee1.  
+ 
+Through this simple model, a vast micro-credit customer base gets insurance coverage at a reasonable 
+cost and gets support from micro -credit Provider for claims settlement etc as required. The micro-
+credit Provider, in turn, can protect their portfolio from death-events and provide much needed basic 
+term insurance to their customers at a uniform premium rate across geography and age. For Insurers 
+micro-credit channel gives them access to a very large low-income customer base which is otherwise 
+difficult and unprofitable to insure for several factors including high cost of customer acquisition and 
+servicing, low coverage amount and high-risk profile.  
+ 
+This model, while works quite satisfactorily for all participants - customers, micro-credit Providers and 
+Insurers, there is a scope for improvement. Within the above-mentioned broad framework, there are 
+complexities and variations in the way product and model is administered. These variations could 
+                                                           
+1 http://mfinindia.org/relevant-regulatory/group%20guidelines%20dated%2029Dec2014.pdf
+
+--- PAGE 7 ---
+7 
+ 
+come from the products and/or policies and process of the micro -credit Provider and the Insurers. 
+Given their educ ational-socio-economic background, micro -credit cus tomers may lack suitable 
+information about the product and can be susceptible to not -taking full benefits of the product paid 
+by her. It may be noted that a significant portion of customer calls on Custome r Grievance Redressal 
+Mechanism (CGRM), both on MFIN and NBFC-MFI channel pertain to insurances, usually for the claim 
+settlements. An internal study done by MFIN also affirm ed that lack of standardization in process 
+related to CLI and lapses in disclosures to customers.  
+ 
+This Guidance Note is prepared to provide framework to the NBFC-MFIs to organize their policies and 
+processes on the CLI. It is formulated around the foundational process as under:  
+1. Defining product requirement  
+2. Selection of Insurer  
+3. Contract with Insurer  
+4. Orientation of the employees   
+5. Key process vis a vis customer 
+6. Key process vis a vis Insurer  
+7. Oversight 
+ 
+We take this opportunity to thank MFIN member NBFC-MFIs and some of the Insurers who supported 
+us in preparing the document. For any clarification/suggestion, feel free to connect with us at 
+sro@mfininidia.org
+
+--- PAGE 8 ---
+8 
+ 
+1. Defining Product Requirement  
+ 
+1.1 As a first step, NBFC -MFI should have clear thinking about kind of CLI product it wants which 
+would meet the requirement of t he NBFC-MFI as well as the customer. While CLI product are fairly 
+standardized within the industry, NBFC-MFI still has to factor the consideration of own context based 
+on customer’s profile (age, geography, elasticity to pay premiu m, financial education) and own 
+requirement (credit products, risk appetite, capacity of field employee and monitoring etc).  
+ 
+1.2 Some features that may be considered in defining product requirement are: 
+▪ Insured persons: NBFC-MFI must determine the coverage they want to achieve from the product. 
+They may decide to cover demise of only customer, customer & spouse, customer & primary 
+earner etc. 
+▪ Sum assured: NBFC-MFI must decide if it would like insurance to cover only for the disbursed 
+amount, loan am ount outstanding or any other fixed -standard amount. Cost benefit analysis of 
+these products from the customer’s perspective as she is eventually paying for the product.   
+▪ Coverage period: NBFC-MFI must keep in mind the tenure of its loan products (standard loans as 
+well as top-up loans) and select insurance products that ensure coverage during the tenure of the 
+loan. NBFC-MFI should give special focus for exception cases such as pre -closures, loan 
+reschedule.  
+▪ Available products: It is always advisable to do a scan of available product in the market accessible 
+to the customers and how NBFC-MFI’s product requirement differentiates and align with options 
+available.  
+1.3 While thinking about above questions, besides relying on own experience and context, it may be 
+good to reach out to peer NBFC -MFIs to discuss the pros and cons of adding and eliminating certain 
+feature in the product requirement. As an example, a credit -linked insurance cover linked with loan 
+amount outstanding may offer lower premium and less of operational requirement as claim need not 
+be settled with the nominee. However, many NBFC -MFIs have experienced challenges getting claim 
+settled as customer has no tangible incentive to provide necessary documents for claims settlement 
+as claim amount only goes to NBFC-MFI and not to the customer.
+
+--- PAGE 9 ---
+9 
+ 
+2. Selection of Insurer 
+ 
+2.1 Once NBFC-MFI has a clear understanding about its own expectations and requirements from the 
+CLI, it should adopt a transparent, competitive and obj ective process to select an insurance partner 
+(s). Several steps can be considered:  
+▪ Invite proposals from a wider spectrum of interested Insurers offering such products.  
+▪ Set c lear criteria for short -listing and selecting which should include parameter s such as 
+alignment with product requirement, market position, financial solidity, claim pr ocess, claim 
+ratio, experience with micro -credit industry, customer service, transparency, turnaround time 
+(TAT) for claim settlement, training and support to employees , ease of process among others. 
+Please refer to Annex 1 for an exhaustive list of parameters to be factored in selecting the Insurer 
+and product. 
+▪ Scrutinize short-listed proposals for regulatory compliances required by the RBI and IRDA2. 
+▪ It is understood t hat premium calculation is largely dependent on the NBFC-MFI’s business 
+volume and claim ratio. However, a comparison of premium offered should be checked with a 
+market study of peer, if possible.  
+ 
+2.2 NBFC-MFI should document the process and rationale of sel ection as well as the final approval 
+process by the management 
+ 
+ 
+  
+                                                           
+2  http://www.policyholder.gov.in/uploads/CEDocuments/Group%20Insurance%20Guidelines%20 -
+%2014.07.2005.pdf  
+http://www.policyholder.gov.in/Group_Insurance.aspx
+
+--- PAGE 10 ---
+10 
+ 
+3. Contract with Insurer  
+ 
+3.1 After the Insurer(s) has been selected, NBFC-MFI should have a detailed contract with the Insurer 
+clearly defining IRDA approved relationship with the Insurer such as Master Policy Holder, Insurance 
+Agent etc.  
+3.2 Such contract should go through legal and regulatory scrutiny for hygiene and NBFC-MFI’s 
+obligations are as under:  
+▪ Name of the Master Policy Holder 
+▪ Name of insured person(s) 
+▪ Whether there is a waiting period 
+▪ Details of coverage including exceptions such a s pre-closure, transfer of loan, suicide, terminal 
+illness etc. 
+▪ Tenure of coverage (date to commencement and date of termination) 
+▪ Parameters of coverage: persons insured, age, condition of health, location 
+▪ Benefits payable on surrender of cover 
+▪ Documentation and reporting requirements at customer level  
+▪ Documentation and reporting requirement at NBFC-MFI level  
+▪ Privacy and confidentiality of customers data and required safeguards  
+▪ Documentation and transaction process (reporting, storage and trans fer of customer data and 
+papers, premium transfers,  premium refund, claim settlement, grounds for rejection (policy 
+enrolment, claim processing)  
+▪ Turnaround time for the Insurer on various types of  service requests such as premium 
+acknowledgement receipt, policy issuance, claim settlement, response to customer queries and 
+complaints etc 
+▪ Periodic review based on  evaluation on claim settlement, pricing, customer complaints and 
+adherence to TATs etc 
+Floater/ advance premium related guidelines  
+▪ Indemnification clause 
+▪ Contact points and escalation matrix 
+▪ Responsibilities of the NBFC-MFI  
+▪ Responsibility of the Insurer
+
+--- PAGE 11 ---
+11 
+ 
+4. Orientation to Employees  
+ 
+4.1 Micro-credit customers greatly rely on direct employee interface to understand about the 
+coverage and underlying process requirement. Therefore, NBFC-MFI must ensure the employees 
+responsible for customer interface (loan officer, branch managers) have clear understanding about 
+the product features and process vis a vis CLI and soft skills as under: 
+▪ Pricing  
+▪ Coverage including exceptions and other relevant term and conditions   
+▪ Process for cancellation or renewal of policy  
+▪ Process for claim settlement 
+▪ Privacy of customer’s information   
+▪ Common issues faced by customers in the process of claim settlement and how to effectively solve 
+customer queries and if required escalation mechanism available to the customers  
+▪ Soft skills on handling customers at the time of grief  
+ 
+4.2 Details of CLI product and relevant process should be part of training module of the filed 
+employee and other relevant employees and should be periodically updated for changes in line with 
+product features and process.  
+4.3 In add ition to  field employee, head office employee involved with insurance process 
+(documentation, claim settlement, CGRM, staff training, compliance, reporting) should be regularly 
+trained on the product and process and should be sensitized to prioritize meeti ng the c ustomers 
+requirement in line with defined TATs in the NBFC-MFI.  
+4.4 Employees should be given refresher trainings and they should also be assessed on their 
+understanding of the product and process periodically.
+
+--- PAGE 12 ---
+12 
+ 
+5. Key Processes vis a vis Customer 
+ 
+On-boarding 
+5.1 As part of the on-boarding process, the customer should be clearly informed about: 
+▪ Product: cost, coverage, what is included and what is not, exceptions   
+▪ Process to cancel and renew the policy and 
+▪ Process to claim settlement including documentation requirement  
+ 
+5.2 Training module for the customer in Group Recognition Test (GRT) should include details about 
+CLI and the same should be reiterated during centre meetings. This trai ning module and training to 
+customers should include the: 
+▪ Key details of CLI  
+▪ Information about coverage period (including coverage in case of pre-closure or rescheduling of 
+loan) 
+▪ Expected TAT of claim settlement. 
+▪ Importance of informing beneficiaries of their benefits under the customer’s insurance coverage.  
+ 
+5.3 Relevant documents from the customers, specifically required for the Credit-linked Life Insurance 
+such as KYC documents, application form, declaration/NOC to transfer loan am ount outstanding at 
+date of death to lender etc should be collected and verified for correctness and compliances.  
+ 
+5.4 Customer’s age eligibility for coverage under CLI should be checked for the entire tenure of the 
+loan.  
+ 
+5.5 Once micro-credit is disbursed, and CLI policy issued, the relevant disclosures concerning the CLI 
+should be made in documents made available to the customer and the staff should highlight the same 
+to the customer a t the time of disbursement and during centre meetin gs to ensure customer 
+retention. Ideally a Certificate of insurance (COI) containing all relevant details should be handed to 
+every customer. The following details should be covered in the same. 
+▪ Name of Insurer 
+▪ Policy number 
+▪ Individuals covered 
+▪ Premium paid 
+▪ Coverage amount 
+▪ Period/term of coverage 
+▪ Events covered 
+▪ Exceptions: terms related to pre-closure, loan rescheduling and loan default etc. 
+▪ Process to file claims (documents required, TATs etc.) 
+▪ Grievance process for insurance 
+▪ Other key conditions
+
+--- PAGE 13 ---
+13 
+ 
+Claim processing  
+5.6 Once the information about the death of the customer or related insured person reaches the 
+NBFC-MFI, the NBFC-MFI should withhold the next rescheduled repayment and immediately do the 
+verification based on internal process. During the verification, employee should take extreme care not 
+to hurt the sensibilities of the family and community.  
+ 
+5.7 Based on customer’s/nominee’s comfort and convenience, NBFC -MFI employee should inform 
+the documen tation requirement for claim processing, claim amount which wi ll be transferred to 
+nominee and NBFC-MFIs, TAT for claim processing as well as contact details in order to know the status 
+of claim and register complaint. Typically, the following documents are required for claim settlement: 
+▪ Death certificate of the deceased   
+▪ KYC of deceased person submitted at the time of on-boarding  
+▪ KYC and Bank account details of nominee   
+▪ Document establishing the relationship between nominee and the deceased 
+▪ Any other documents required by Insurer based on reasons of death  
+ 
+5.8 Customer should be supported to fill the claim form and organize the required documents for 
+claim processing (death certificate, KYC, nominee bank details). 
+ 
+5.9  Employee responsible for claim processing should verify the documents for accuracy and 
+completeness to ensure quick processing of claim settlement and then transfer to the Head Office as 
+per internal process.  
+ 
+5.10  Once claim amount has been transferred to nominees account or cheque is ready for collection, 
+intimation should be given 
+ 
+5.11  Any amount collected towards the repayment post the date of death should be refunded to the 
+nominee 
+ 
+5.12  Claims unsettled 90 days after date of death should be escalated for examination and resolution
+
+--- PAGE 14 ---
+14 
+ 
+Grievance redressal 
+5.13 Customers should be encouraged to reach out to NBFC-MFI’s CGRM for any complaints or queries 
+concerning insurance that the staff is unable to address. The NBFC-MFI should also provide the 
+Insurer’s and IRDA’s CGRM number to the customer as part of an escalation matrix and the customer 
+should be made aware of these numbers and the specific circumstances in which they may be called. 
+ 
+5.14  There should be well laid out process to address the customer queries and grievances.  
+ 
+5.15 Field-employees as well CGRM representatives, should be very well versed to respond to 
+customer queries/calls on all related aspects such as: 
+▪ Information to be provided on the receipt of death intimation  
+▪ Information about the documentation requirement for claim and underlying process   
+▪ Status of claim  
+▪ Complaint regarding rejection or delay in claim processing or disagreement in claim value etc 
+ 
+5.16 CGRM representative should be aware of common issues faced by nominees/customers and 
+should also be sensitized on how to speak with the nominees/customers at this aggrieved time.  
+ 
+5.17 CGRM should have access to the Management Information System (MIS) of claim settlement to 
+immediately inform the about current stage of claim processing.  
+ 
+Others 
+5.18 In addition to the above standard process, NBFC-MFI should have clearly documented policy and 
+process for other specific situations as under: 
+▪ If a customer has pre -closed, her micro-credit loan but her CLI coverage continues? If yes, she 
+should be supported with claim settlement if required. If not, her premium should be refunded to 
+the customer.  
+▪ If a customer has missed her scheduled repayment thereby extending her tenure, what happens 
+to her coverage of CLI? Can the customer extend her CLI to cover the extended tenure? If not, 
+customer should be informed about this to avoid unpleasant situation later.  
+▪ If customer has a delinquent account (i.e. she has pending repayments) at the time of death, how 
+will this affect the claim processing process and claim value  
+▪ Difference if any in claim process for the customer (i.e. borrower) and related-insured person. 
+▪ Reporting of customer data to Credit Information Companies (CICs) till claim is settled by the 
+Insurer.  
+Submission of account to CICs in case of customer or related insured person dies 
+It is suggested that as soon as the death of the customer or related insurer person is confirmed, the 
+account should be closed and reported as such to the Credit Information Companies (CICs).  
+For accounting purpose, loan account can be closed by debiting  loan a ccount “Receivable from 
+Insurer” and reconcile this loan account when settlement amount is received from Insurer.  
+Considering that the claim settlement from the Insurer can take anywhere between 1 to 6 months, 
+submitting loan account as delinquent (till it is settled through claim received from Insurer) impairs 
+the customer ability to access the loan and her credit history. It is therefore, recommended that the 
+account is closed and submitted with account status as ‘closed’ to the CICs.
+
+--- PAGE 15 ---
+15 
+ 
+6. Key Processes vis a vis Insurer 
+ 
+On-boarding 
+6.1 NBFC-MFI to maintain a float with the Insurer as per the conditions of the contract signed with 
+the Insurer. 
+6.2 List of insured people with details as mandated by the Insurer be sent to the Insurer as per agreed 
+periodicity.  
+6.3 Premium collected for the insured people transferred to the Insurer as per agreed timelines in 
+the contract signed with the Insurer  
+6.4 Insurer to send the Certificate of Insurance to the NBFC-MFI for all policies sold during the period.  
+ 
+Claim processing  
+6.5 Details of death for claim processing be informed to the Insurer after verification has been done 
+by the NBFC-MFI 
+6.6 Documents for the claim processing are sent to the Insurers (hard/soft copy as per the 
+requirement of the Insurer) to register the claim  
+6.7 Status of claims is regularly monitored  
+6.8 Insurer to inform the NBFC -MFI once claim has been p rocessed with required details including 
+reasons for rejection if applicable   
+Others  
+6.9 Insurer to be informed of cancellation of policy and remaining premium amount to be refunded 
+to the customer, where applicable  
+6.10 Insurer to be informed of extension of th e policy (for rescheduled loans) and premium be 
+transferred to Insurer and revised Certificate of Policy is received from Insurer
+
+--- PAGE 16 ---
+16 
+ 
+7. Oversight 
+ 
+Reporting 
+7.1 For all ins ured persons (customers and related -family member ), there should be detailed 
+capturing of data including KYC details, Insurer, policy number, premium amount, coverage amount, 
+linked credit-account number, nominee details. Please refer to Annex 2 for format of CLI. 
+7.2 Information with respect to claim should capture a ll key aspects to monitor and analyse the 
+efficiency of claim processing. This among other essential data point should cover the following3:   
+▪ KYC details of insured person (name, age, dob, IDs, address, phone number) 
+▪ Coverage details (amount, start date, end date) 
+▪ Date of intimation of death (the date MFI was informed of demise) 
+▪ Date of death (as per death certificate) 
+▪ Details of documents collected for claim processing  
+▪ Date of full documents collected from nominee for claim processing   
+▪ Date of documents submitted to Insurer for claims  
+▪ Nominee details (name, relationship, KYC, bank details) 
+▪ Principal amount outstanding at date of death (as per death certificate) 
+▪ Claim amount approved by Insurer  
+▪ Amount and date of claim amount transferred to the nominee 
+▪ Amount and date of claim amount transferred to the NBFC-MFI 
+▪ Repayment amount collected post date of death 
+▪ Repayment amount collected post date of death which is refunded 
+▪ Reasons for rejection   
+ 
+7.3 All details, hard copies as well as soft copy should be kept in a secured environment which ensures 
+the security, privacy and confidentially of customer information.  
+Monitoring 
+There should be monitoring mechanism to see adherence to process and overal l performance of CLI 
+as under:  
+7.4 NBFC-MFI’s internal audit should cover the aspects as under and key findings should be presented 
+to the Senior management and the Board 
+▪ Training modules for customers and employees cover the updat ed information about products 
+and process 
+▪ Disclosure to customers are in line with regulatory norms and as per internal company policy 
+▪ Customers’ and employee’s awareness about the product and process  
+▪ TAT for claims processing, complaints redressal  
+▪ Accuracy of information/data captured in MIS 
+▪ Accuracy of transactions including premium collected and claims settled  
+▪ Measures for security, privacy and confidently of data of the customer and company 
+▪ Compliance with regulations and policy   
+ 
+7.5 Customer’s understanding of CLI should be assessed during audit o r any other assessments. 
+Based on this assessment, process to inform and educate the customers should be strengthened to 
+improve the customers’ understanding 
+ 
+                                                           
+3 Please refer to Annex 3 for a format capturing data related to claim settlement process
+
+--- PAGE 17 ---
+17 
+ 
+7.6 Performance of CLI should be periodically assessed at NBFC-MFI level as well as Insurer level for 
+strengths and shortcomings and to take corrective measures.  
+▪ The turnaround time (TAT) at NBFC-MFI level for claim processing (collection of documents from 
+customers, transfer of document to Insurer, registration of claims)  
+▪ Causes for delays, rejection and customer queries and complaints  
+▪ The TAT of Insurer for claim processing 
+▪ Claim ratio of the Insurer 
+▪ Ease of doing business with the Insurer 
+ 
+7.7  There should be Board/Management oversight to conduct a regular review of the r eports 
+generated on CGRM as well performance and audit of the NBFC-MFI’s CLI product and process.
+
+--- PAGE 18 ---
+18 
+ 
+8. Annexures 
+Annex 1: Parameters to guide the selection of Insurer 
+Sl. 
+No. 
+Particulars Remarks 
+1. Profile of Insurer (focus segments, state, market position)  
+2 Date of registration in India and commencement of business.  
+4 IRDA registration number  
+5 Equity participation and brief details of promoters  
+6 Award and achievement of company  
+7 List of Corporate tie -ups (sepa rate for urban and rural) in micro -credit sector 
+including date of tie-up and first year premium (Regular) collected in each tie-up. 
+ 
+8 No. of offices in relevant states where NBFC-MFI operates   
+9 Technology to be provided by company (e.g. Online purcha se of policy, need 
+analysis, online submission and verification of documents etc.)  
+ 
+10 Consumer complaint grievance procedure  
+11 Claim settlement process and area of jurisdiction  
+11 Human resources to be deployed by Insurer   
+12 Projected business the Insurer can assure  
+13 Training and other support by Insurer  
+14 Details of offered products (coverage, premium per thousand, commission)  
+15 Any special scheme which Insurer may like to highlight.  
+16 Time the Insurer will take to start the business.  
+Financial position and ratio analysis for latest three financial years 
+Sl 
+no. 
+Particulars FY 1 FY 2 FY 3  
+16 Business ranking    
+17 Market share in total business.    
+18 Claim settlement ratio    
+19 Average claim settlement time    
+20 Customer grievances (no of complaints, resolved, pending)                  
+21 Solvency ratio    
+22 Share capital    
+23 Reserves & surplus    
+24 Net worth    
+25 Premium earned    
+26 Net profit for the year    
+27 Penalties paid by company in case violation of provisions of act and 
+guidelines applicable to company (if any)
+
+--- PAGE 19 ---
+19 
+ 
+Annex 2: Format for gathering information for all insured persons   
+▪ Name of the Insurer 
+▪ Name of NBFC-MFI 
+▪ Name of customer  
+▪ Gender 
+▪ Phone 
+▪ Address 
+▪ Date of birth 
+▪ Age (on date of commencement of policy)  
+▪ Customer’s loan account number linked to policy 
+▪ Premium paid  
+▪ Coverage amount  
+▪ Date of commencement of policy 
+▪ Date of termination of policy 
+▪ Nominee details (name, relationship, age)
+
+--- PAGE 20 ---
+20 
+ 
+Annex 3: Format for gathering information on claim processing  
+▪ KYC details of insured person (name, age, dob, IDs, address, phone number) 
+▪ Coverage details (amount, start date, end date) 
+▪ Date of intimation of death (the date NBFC-MFI was informed of demise) 
+▪ Date of verification of death  
+▪ Date when verification report was sent to HQ 
+▪ Date of death (as per death certificate) 
+▪ Details of documents collected for claim processing  
+▪ Date of full documents collected from nominee for claim processing   
+▪ Date of documents submitted to Insurer for registering claims   
+▪ Nominee details (name, relationship, KYC, bank details) 
+▪ Principal amount outstanding at date of death (as per death certificate) 
+▪ Claim amount approved by Insurer  
+▪ Amount and date of claim amount transferred to the nominee 
+▪ Amount and date of claim amount transferred to the NBFC-MFI 
+▪ Repayment amount collected post date of death 
+▪ Repayment amount collected post date of death which is refunded 
+▪ Reasons for rejection
+
+--- PAGE 21 ---
+21 
+ 
+Annex 4: Relevant regulatory and industry guidelines  
+RBI Directions for NBFC-MFIs 
+https://www.rbi.org.in/scripts/BS_ViewMasCirculardetails.aspx?id=9827  
+▪ There shall be only three components in the prici ng of the loan viz. the interest charge, the 
+processing charge and the i nsurance premium (which includes the administrative charges in 
+respect thereof). 
+▪ NBFC-MFIs shall recover only the actual cost of insurance for group, or livestock, life, health for 
+borrower and spouse. Administrative charges where recovered, shall be as per IRDA guidelines.  
+ 
+RBI Fair Practice Code for NBFCs 
+https://rbi.org.in/Scripts/BS_ViewMasCirculardetails.aspx?id=9823  
+▪ In the loan agreement it should be disclosed that tha t the pricing of the loan involves only three 
+components viz; the interest charge, the processing charge and the insurance premium (which 
+includes the administrative charges in respect thereof),  
+ 
+IRDA 
+http://www.policyholder.gov.in/uploads/CEDocuments/Group%20Insurance%20Guidelines%20-
+%2014.07.2005.pdf  
+http://www.policyholder.gov.in/uploads/CEDocuments/GroupInsurance%20Guidelines.pdf  
+http://mfinindia.org/relevant-regulatory/group%20guidelines%20dated%2029Dec2014.pdf  
+ 
+Industry Code of Conduct  
+http://mfinindia.org/wp-content/uploads/2016/10/Industry-CoC-Changes.pdf  
+MFI must disclose the total charges recovered for insurance coverage and risks covered. 
+MFI must not bundle products, except for credit lif e insurance, life insurance & live -stock insurance 
+products. The terms of insurance will be transparently conveyed to the customer and will comply with 
+RBI & IRDA norms. Consent of the client will be taken in all cases. 
+ 
+Compendium of MFIN Directive and Ad visories (Directive 9 on Insurance claims 
+settlements) 
+http://mfinindia.org/wp-content/uploads/2016/10/Compendium-of-MFIN-Directives-and-
+Advisories_29th-Nov-18.pdf  
+▪ NBFC-MFIs should ensure that they cease collection of due instalments after the date of the 
+demise of the insured customer or insured family person.  
+▪ In case there has been any collection of due instalments post this date, NBFC -MFIs are required 
+to refund the excess amount along with the death benefit to the customer or nominee, as 
+applicable.  
+▪ NBFC-MFI take all necessary steps  including support to customer/nominee with documentation 
+requirements to timely process the insurance claims. 
+ 
+Client Protection Principle (CPP) of Smart Campaign  
+https://www.smartcampaign.org/storage/documents/Tools_and_Resources/Standards_2.0_English_
+Word_for_Website.pdf
+
+--- PAGE 22 ---
+22 
+ 
+▪ All the insurance products offered by or through the provider are underwritten by a licensed 
+Insurer. An ex ception can be made, where permitted by applicable local law, for credit life 
+insurance, or if the provider can demonstrate that 1) no Insurer is willing to offer appropriate 
+products; and 2) the associated credit risks are minimal and clearly disclosed to clients. 
+▪ If the provider is bearing the risk of insurance products that it offers its clients, it must be licensed 
+to do so by the insurance regulator.  
+▪ If the provider is selling insurance products on behalf of a regulated Insurer, it must be legally 
+allowed to be an insurance agent (individually OR as a company). 
+▪ When insurance is offered through third-party providers, the provider has a transparent process 
+for selecting Insurers which involves a competitive bidding and/or market study and a 
+consideration of the value and appropriateness of the products and services offered. 
+▪ The provider has a mechanism of rigorou s and regular monitoring of front -line staff and third -
+party sales techniques (e.g., agents, insurance companies or money transfer companies) to  
+impede aggressive sales. When 'red flags' are raised, it triggers corrective measures 
+▪ Insured clients are provided the following information at the time of enrolment (orally and/or in 
+writing):  
+› premium 
+› events covered 
+› individuals covered 
+› amount and term of coverage 
+› when and how to file a claim 
+› required documentation to prove damage 
+› any major exclusions 
+› terms related to cancelation and prepayment 
+› cooling off periods, cancellation rights, and other relevant rights under policies. 
+▪ Clients are informed about the importance of informing beneficiaries of their coverage under the 
+client’s insurance products.  
+▪ Providers make the same effort to educate clients about their products, whether the products are 
+sold as voluntary, mandatory or bundled. 
+▪ Insurance claims are processed in a fair and timely manner. 
+› Almost all claims are settled within one month or such shorter period as may be required by 
+local law (some exceptions may be permitted due to complexity). 
+› Claimants are notified when claims are received and when they are settled. 
+› When a claim is denied, claimants are provided notice, the reason for rejection, and a 
+reasonable time period during which to correct any deficiency; in almost all cases, such notice 
+is received within one month of the filing of the claim (some exceptions may be permitted due 
+to complexity). 
+▪ Starting at the time of the application, clients gi ve their consent before the provider shares 
+personal information with any external audience, including credit bureaus, family members, 
+guarantors, insur ance agents, collections companies, and marketing material or other public 
+content. Staff is required to highlight the text of consent signed by a client. 
+▪ Product contracts include a clear, concise explanation of how client data will be protected and 
+how it may be used or shared and with whom, including sharing with a credit bureau. 
+▪ Clients name beneficiaries for life insurance policies and are reminded to notify those beneficiaries 
+that they have been designated. 
+▪ The provider analyses data from insurance p roducts to assess their value to clients and client 
+satisfaction. Data should include, product uptake, claims ratio, claims rejection ratio, renewal rate, 
+coverage ratio, demographics of those covered, complaints ratio, average time for claim's 
+resolution, reasons for lapses in coverage and rejection of claims.  
+▪ The provider and/or its agent network provider has a system to monitor third party agent liquidity 
+and network availability and take action in the event of system failures
+
+--- PAGE 23 ---
+23 
+ 
+▪ Guarantees, guarantor inco me and/or insurance coverage are not the main basis for loan 
+approval. 
+▪ If the provider deducts the first  payment from principal and fees (i.e. upfront fee, insurance, 
+guarantee deposit), it clearly communicates this to clients before disbursement. 
+▪ The prov ider gives clients adequate time to review the terms and conditions of products, ask 
+questions, and rece ive additional information prior to signing contracts. The client has an 
+opportunity to decline the product (loan + insurance combination in the case of  bundled 
+products). 
+▪ Clients receive a certificate of coverage that includes the most salient information , which in all 
+cases includes: 
+› premium;  
+› events covered 
+› individuals covered 
+› amount and term of coverage 
+› when and how to file a claim.  
+ 
+This certificate  is delivered to clients promptly after enrolment (in the case of insurance 
+enrolment at the time of the loan application, the certificate should be delivered at or before 
+loan disbursement). 
+▪ The provider notifies clients before any change, including expir ation, cancellation or material 
+change of terms (such as insurance coverage) or price. Where relevant, p rovider informs clients 
+of any right or procedure to prevent the change. Communication for credit and savings products 
+is orally and in writing. 
+▪ Pricing for insurance, including mandatory insurance fees, covers at least premiums passed to 
+insurance companies and actual costs. 
+▪ Insurance pricing is adjusted based on actual claims experience. 
+▪ Claims ratios for life insurance are no less than 30%. If below 30%, raises a yellow flag and can be 
+justified by the provider 
+▪ The provider does not charge or receive an entrance fee, exclusivity fee or initiation fee from the 
+insurance provider.
+
+--- PAGE 24 ---
+24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+For any suggestion/clarification/query, please contact us at sro@mfinindia.org

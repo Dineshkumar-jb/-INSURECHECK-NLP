@@ -1,0 +1,47 @@
+# Git Ignore for InsureCheck-NLP
+# Large model binaries (>100MB exceeds GitHub push limits)
+*.safetensors
+*.bin
+*.pt
+*.pth
+models/deberta_insurance_classifier/model.safetensors
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+
+# Temporary and Lock Files
+.~lock.*
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE and Task Artefacts
+.vscode/
+.idea/
+*.log

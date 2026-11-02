@@ -1,0 +1,11 @@
+{
+  "model_architecture": "distilbert-base-uncased",
+  "epochs": 10,
+  "batch_size": 4,
+  "learning_rate": 5e-05,
+  "training_time_seconds": 91.6,
+  "final_train_loss": 0.0875,
+  "final_val_accuracy_pct": 100.0,
+  "final_val_macro_f1_pct": 100.0,
+  "saved_checkpoint": "/home/nullframe/Desktop/NLP/models/deberta_insurance_classifier"
+}

@@ -1,0 +1,77 @@
+{
+  "experiment_status": "COMPLETED (60% Implementation Verified)",
+  "total_samples_evaluated": 22,
+  "macro_precision": 1.0,
+  "macro_recall": 1.0,
+  "macro_f1": 1.0,
+  "avg_inference_latency_ms": 1.24,
+  "per_class_metrics": {
+    "Waiting Periods": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "Sub-Limits & Caps": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "Non-Payable Items & Consumables": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "Co-Payment Mandates": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    },
+    "Standard Coverage": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      5,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      4,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      4
+    ]
+  ],
+  "sample_risk_score_test": {
+    "computed_score": 100.0,
+    "risk_level": "\ud83d\udd34 HIGH CLAIM RISK (Severe Fine Print Traps)",
+    "total_exclusions_flagged": 10
+  }
+}

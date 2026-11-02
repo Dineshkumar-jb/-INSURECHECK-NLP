@@ -1,0 +1,701 @@
+==========================================
+FILE: 1.pdf (Pages: 20)
+==========================================
+--- HEAD ---
+TYPE Original Research
+PUBLISHED 26 March 2026
+DOI 10.3389/frai.2026.1782405
+OPEN ACCESS
+EDITED BY
+Sugam Sharma,
+Iowa State University SUF/eLegalls LLC,
+United States
+REVIEWED BY
+Paolo Rosso,
+Universitat Politècnica de València, Spain
+Andrea Colombo,
+Polytechnic University of Milan, Italy
+Eason Chen,
+Carnegie Mellon University, United States
+*CORRESPONDENCE
+William Villegas-Ch
+william.villegas@udla.edu.ec
+†These authors have contributed equally
+to this work
+RECEIVED 13 January 2026
+REVISED 27 February 2026
+ACCEPTED 02 March 2026
+PUBLISHED 26 March 2026
+CITATION
+Govea J, Ortiz-Gárces I, Palacios P,
+Navarro AM, Del Pino SA and
+Villegas-Ch W (2026) Technical
+evaluation of language models adapted
+for the automation of legal contracts:
+clause extraction, classiﬁcation, and
+summarization.
+Front. Artif. Intell. 9:1782405.
+doi: 10.3389/frai.2026.1782405
+COPYRIGHT
+© 2026 Govea, Ortiz-Gárces, Palacios,
+Navarro, Del Pino and Villegas-Ch. This is
+an open-access article distributed under
+the terms of theCreative Commons
+Attribution License (CC BY).T h eu s e ,
+distribution or reproduction in other
+forums is permitted, provided the
+original author(s) and the copyright
+owner(s) are credited and t
+
+--- TAIL ---
+978-3-031-36805-9_24
+Wei, S.-L., Wu, C.-K., Huang, H.-H., and Chen, H.-H. (2024). “Unveiling
+selection biases: exploring order and token sensitivity in large language models,”
+in Findings of the Association for Computational Linguistics ACL 2024 , 5598–5621.
+doi:10.18653/v1/2024.ﬁndings-acl.333
+Yao, Y., Duan, J., Xu, K., Cai, Y., Sun, Z., and Zhang, Y. (2024). A survey on
+large language model (LLM) security and privacy: the good, the bad, and the ugly.
+High-Conﬁd. Comput.4:100211.doi:10.1016/j.hcc.2024.100211
+Zheng, L., Guha, N., Anderson, B. R., Henderson, P., and Ho, D. E. (2021). “When
+does pretraining help?,” inProceedings of the Eighteenth International Conference on
+Artiﬁcial Intelligence and Law,159–168.doi:10.1145/3462757.3466088
+Frontiersin ArtiﬁcialIntelligence
+20 frontiersin.org
+
+
+==========================================
+FILE: 2.pdf (Pages: 9)
+==========================================
+--- HEAD ---
+Frontiers in Health Informatics 
+ISSN-Online: 2676-7104 
+2024; Vol 13: Issue 3 
+ www.healthinformaticsjournal.com 
+Open Access 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+4774 
+ 
+Insurance Policy Summarization Using Natural Language Processing 
+(NLP) 
+ 
+Sapana Kolambe1 and Dr. Parminder Kaur2 
+1 Research Scholar, MGM University, Chhatrapati Sambhajinagar, Maharashtra, India 
+2 Professor, MGM University, Chhatrapati Sambhajinagar, Maharashtra, India 
+1sapanaborole07@gmail.com  
+Cite this paper as: Sapana Kolambe, Parminder Kaur (2024) Insurance Policy Summarization Using Natural 
+Language Processing (NLP). Frontiers in Health Informatics, 13 (3), 4774-4782 
+ 
+ 
+Abstract. Policyholders may encounter challenges in understanding important terms and conditions of 
+insurance policies due to their lengthiness and intricacy. This research investigates the usage of Natural 
+Language Processing (NLP) methods for automating summaries of insurance policy documents. Our approach 
+aims at producing concise and accurate summaries which highlights important aspects such as cover details, 
+exclusions and premiums through a combination of extraction-based and abstractive summarization strategies. 
+We elaborate on pre- proces
+
+--- TAIL ---
+ingapore. Frontiers in Health Informatics 
+ISSN-Online: 2676-7104 
+2024; Vol 13: Issue 3 
+ www.healthinformaticsjournal.com 
+Open Access 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+4782 
+16. Ramón-Hernández, A.; Simón-Cuevas, A.; Lorenzo, M.M.G.; Arco, L.; Serrano-Guerrero, 
+J. Towards Context-Aware Opinion Summarization for Monitoring Social Impact of News. Information 2020, 
+11, 535. 
+17. Mallick, Chirantana & Das, Ajit & Dutta, Madhurima & Das, Asit & Sarkar, Apurba. (2018). Graph-Based Text 
+Summarization Using Modified TextRank. Advances in Intelligent Sys- tems and Computing. 
+18. Yadav, Anurag & Kumar, Mukesh & Pathre, Ayonija. (2020). Implemented Text Rank based Automatic Text 
+Summarization using Keyword Extraction. International Research Journal of Innovations in Engineering and 
+Technology. 04. 20-25. 
+ 
+
+
+==========================================
+FILE: 3.pdf (Pages: 30)
+==========================================
+--- HEAD ---
+Annals of Operations Research
+https://doi.org/10.1007/s10479-023-05631-9
+ORIGINAL RESEARCH
+AI-powered decision-making in facilitating insurance claim
+dispute resolution
+Wen Zhang 1 · Jingwen Shi 2 · Xiaojun Wang 3 · Henry Wynn 4
+Received: 30 November 2022 / Accepted: 28 September 2023
+© The Author(s) 2023
+Abstract
+Leveraging Artiﬁcial Intelligence (AI) techniques to empower decision-making can promote
+social welfare by generating signiﬁcant cost savings and promoting efﬁcient utilization of
+public resources, besides revolutionizing commercial operations. This study investigates
+how AI can expedite dispute resolution in road trafﬁc accident (RTA) insurance claims,
+beneﬁting all parties involved. Speciﬁcally, we devise and implement a disciplined AI-driven
+approach to derive the cost estimates and inform negotiation decision-making, compared to
+conventional practices that draw upon ofﬁcial guidance and lawyer experience. We build the
+investigation on 88 real-life RTA cases and detect an asymptotic relationship between the
+ﬁnal judicial cost and the duration of the most severe injury, marked by a notable predicted
+R
+2 value of 0.527. Further, we illustrate how various AI-powered toolk
+
+--- TAIL ---
+ to the Lord Chancellor on the civil justice system in England
+and Wales. Lord Chancellor’s Department.
+Xiao, C. (2018). Cail2018: A large-scale legal dataset for judgment prediction. arXiv:1807.02478.
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and
+institutional afﬁliations.
+AuthorsandAﬃliations
+Wen Zhang 1 · Jingwen Shi 2 · Xiaojun Wang 3 · Henry Wynn 4
+B Wen Zhang
+phd14wz@mail.wbs.ac.uk
+Jingwen Shi
+phd15js@mail.wbs.ac.uk
+Xiaojun Wang
+x.wang.18@bham.ac.uk
+Henry Wynn
+H.Wynn@lse.ac.uk
+1 Business School, University of Bristol, 11-13 Tyndall’s Park Road, Clifton, Bristol BS8 1PY, UK
+2 State Street Global Advisors, London, UK
+3 University of Birmingham, Birmingham, UK
+4 London School of Economics and Political Science, London, UK
+123
+
+
+==========================================
+FILE: 4.pdf (Pages: 8)
+==========================================
+--- HEAD ---
+ScienceDirect
+Available online at www.sciencedirect.com
+Procedia Computer Science 224 (2023) 147–154
+1877-0509 © 2023 The Authors. Published by Elsevier B.V .
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the Conference Program Chair
+10.1016/j.procs.2023.09.022
+10.1016/j.procs.2023.09.022 1877-0509
+ 
+Available online at www.sciencedirect.com 
+ScienceDirect 
+Procedia Computer Science 00 (2023) 000–000  
+www.elsevier.com/locate/procedia 
+ 
+1877-0509 © 2023 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Peer-review under responsibility of the Conference Program Chairs.  
+The 20th International Conference on Mobile Systems and Pervasive Computing (MobiSPC)  
+August 14-16, 2023, Halifax, Nova Scotia, Canada 
+Transforming Health Insurance Claims Adjudication with 
+Blockchain-based Solutions 
+Wael El-Samad*, Mirna Atieha, Mehdi Addab  
+aBusiness Computer Department, Faculty of Economic Sciences and Administration Lebanese University Hadat, Lebanon 
+bDépa
+
+--- TAIL ---
+-6. 
+27-Telus Health. (2020). eClaims Payment Guide (Report No. THS1220). Telus Health. 
+http://plus.telushealth.co/page/eclaims/help/learningcorner/Images/THS1220_eClaims_PaymentGuide-Web-EN-V64.pdf 
+28-Van D, O., Berkers, F., Vos, M., Zandee, A., Vreul s, T., van Piggelen, L., ... & van de Ruit, D. (2018). Techruption Consortium Blockchain–
+what it takes to run a blockchain together. In  Proceedings of 1st ERCIM Blockchain Workshop 2018. European Society for Socially 
+Embedded Technologies (EUSSET). 
+29-Yaga, D., Mell, P., Roby, N., & Scarfone, K. (2019). Blockchain technology overview. arXiv preprint arXiv:1906. 11078. 
+30-Zheng, H., You, L., & Hu, G. (2022). A novel insurance claim blockchain scheme based on zero -knowledge proof technology. Computer 
+Communications, 195, 106-116. 
+ 
+ 
+
+
+==========================================
+FILE: 5.pdf (Pages: 33)
+==========================================
+--- HEAD ---
+Vol.:(0123456789)
+Digital Society (2024) 3:1
+https://doi.org/10.1007/s44206-023-00081-z
+1 3
+ORIGINAL PAPER 
+Explainable AI and Law: An Evidential Survey
+Karen McGregor Richmond1  · Satya M. Muddamsetty2 · 
+Thomas Gammeltoft‑Hansen1 · Henrik Palmer Olsen1 · Thomas B. Moeslund2
+Received: 11 June 2023 / Accepted: 31 October 2023 / Published online: 19 December 2023 
+© The Author(s) 2023
+Abstract
+Decisions made by legal adjudicators and administrative decision-makers often 
+found upon a reservoir of stored experiences, from which is drawn a tacit body of 
+expert knowledge. Such expertise may be implicit and opaque, even to the decision-
+makers themselves, and generates obstacles when implementing AI for automated 
+decision-making tasks within the legal field, since, to the extent that AI-powered 
+decision-making tools must found upon a stock of domain expertise, opacities may 
+proliferate. This raises particular issues within the legal domain, which requires a 
+high level of accountability, thus transparency. This requires enhanced explainabil-
+ity, which entails that a heterogeneous body of stakeholders understand the mecha-
+nism underlying the algorithm to the extent that an explanat
+
+--- TAIL ---
+ Q., et al. (2019). An explainable multi-attribute decision model based on argumentation. Expert 
+Systems with Applications, 117, 42–61.
+Zhou, B., et al. (2016). Learning deep features for discriminative localization. Proceedings of the IEEE 
+Conference on Computer Vision and Pattern Recognition.
+Authors and Affiliations
+Karen McGregor Richmond1  · Satya M. Muddamsetty2 · 
+Thomas Gammeltoft‑Hansen1 · Henrik Palmer Olsen1 · Thomas B. Moeslund2
+ * Karen McGregor Richmond 
+ karen.richmond@jur.ku.dk
+ Satya M. Muddamsetty 
+ smmu@create.aau.dk
+1 Faculty of Law, Copenhagen University, Karen Blixen’s Plads 16, Copenhagen 2400, Denmark
+2 Department of Architecture, Design, and Media Technology (CREATE), Visual Analysis 
+and Perception Lab, Aalborg University, Rendsburggade 14, Aalborg 9000, Denmark
+
+
+==========================================
+FILE: 6.pdf (Pages: 21)
+==========================================
+--- HEAD ---
+Vol.:(0123456789)
+The Review of Socionetwork Strategies (2024) 18:101–121
+https://doi.org/10.1007/s12626-023-00153-z
+1 3
+ARTICLE
+Legal Information Retrieval and Entailment Using 
+Transformer‑based Approaches
+Mi‑Young Kim1  · Juliano Rabelo2 · Housam Khalifa Bashier Babiker3 · 
+Md Abed Rahman3 · Randy Goebel4
+Received: 31 August 2023 / Accepted: 28 November 2023 / Published online: 11 January 2024 
+© The Author(s) 2024
+Abstract
+The challenge of information overload in the legal domain increases every day. The 
+COLIEE competition has created four challenge tasks that are intended to encourage 
+the development of systems and methods to alleviate some of that pressure: a case 
+law retrieval (Task 1) and entailment (Task 2), and a statute law retrieval (Task 3) 
+and entailment (Task 4). Here we describe our methods for Task 1 and Task 4. In 
+Task 1, we used a sentence-transformer model to create a numeric representation 
+for each case paragraph. We then created a histogram of the similarities between 
+a query case and a candidate case. The histogram is used to build a binary classi-
+fier that decides whether a candidate case should be noticed or not. In Task 4, our 
+approach relies on f
+
+--- TAIL ---
+filiations.121
+1 3The Review of Socionetwork Strategies (2024) 18:101–121 
+Authors and Affiliations
+Mi‑Young Kim1  · Juliano Rabelo2 · Housam Khalifa Bashier Babiker3 · 
+Md Abed Rahman3 · Randy Goebel4
+ * Mi-Young Kim 
+ miyoung2@ualberta.ca
+ Juliano Rabelo 
+ rabelo@ualberta.ca
+ Housam Khalifa Bashier Babiker 
+ khalifab@ualberta.ca
+ Md Abed Rahman 
+ mdabed@ualberta.ca
+ Randy Goebel 
+ rgoebel@ualberta.ca
+1 Department of Science, Augustana Faculty, University of Alberta, Camrose, Alberta, Canada
+2 Alberta Machine Intelligence Institute, University of Alberta, Edmonton, Alberta, Canada
+3 Department of Computing Science, University of Alberta, Edmonton, Alberta, Canada
+4 Department of Computing Science and Alberta Machine Intelligence Institute, University 
+of Alberta, Edmonton, Alberta, Canada
+
+
+==========================================
+FILE: 7.pdf (Pages: 5)
+==========================================
+--- HEAD ---
+Software Impacts 28 (2026) 100844
+ 
+Contents lists available at ScienceDirect
+Software Impacts
+journal homepage: www.journals.elsevier.com/software-impacts  
+Original Software Publication
+InsuranceRAG: A multi-module retrieval-augmented AI system for intelligent 
+insurance assistance
+Sejal Hanmante, Shivani Patil, Priyanka V. Deshmukh, Aniket K. Shahade ∗
+Symbiosis Institute of Technology, Pune Campus, Symbiosis International (Deemed University), Pune, India
+A R T I C L E  I N F O
+Keywords:
+Retrieval-augmented generation
+Health insurance software
+Natural language processing
+Policy recommendation system
+Document retrieval
+Open-source software
+ A B S T R A C T
+This article presents InsuranceRAG, an open-source software system designed to support intelligent interaction 
+with health insurance data using Retrieval-Augmented Generation (RAG). The software provides a Flask-based 
+web interface that enables users to submit  natural language queries, upload insurance policy documents, 
+and receive context-aware responses. It follows a modular architecture comprising independent components 
+for conversational assistance, policy recommendation, and document retrieval, all coordinated through
+
+--- TAIL ---
+stributed 
+FAISS and Sentence Transformer Models, Journal ID, 1004, p. 1429.
+[12] S. Bedi, et al., A systematic review of testing and evaluation of healthcare 
+applications of large language models (LLMs), 2024, http://dx.doi.org/10.1101/
+2024.04.15.24305869.
+[13] R.P. Pramila, R.S.R., V.S., Artificial intelligence and natural language process-
+ing (NLP) integrated multilingual health insurance application, in: 2024 3rd 
+International Conference on Automation, Computing and Renewable Systems, 
+ICACRS, IEEE, 2024, pp. 1141–1145, http://dx.doi.org/10.1109/ICACRS62842.
+2024.10841786.
+[14] S. Hanmante, S. Patil, A.K. Shahade, A multi module a.i. system for intelligent 
+health insurance support using retrieval augmented generation, Sci Rep (2025) 
+http://dx.doi.org/10.1038/s41598-025-31038-6.
+5
+
+
+==========================================
+FILE: 8.pdf (Pages: 7)
+==========================================
+--- HEAD ---
+ScienceDirect
+Available online at www.sciencedirect.com
+Procedia Computer Science 234 (2024) 520–526
+1877-0509 © 2023 The Authors. Published by Elsevier B.V .
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the Seventh Information Systems International Conference
+10.1016/j.procs.2024.03.035
+10.1016/j.procs.2024.03.035 1877-0509
+ 
+ 
+Available online at www.sciencedirect.com 
+ScienceDirect 
+Procedia Computer Science 00 (2023) 000–000  
+www.elsevier.com/locate/procedia 
+ 
+1877-0509 © 2023 The Authors. Published by ELSEVIER B.V. 
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) 
+Peer-review under responsibility of the scientific committee of the Seventh Information Systems International Conference. 
+Seventh Information Systems International Conference (ISICO 2023) 
+Optimizing Claim Assessment Processes in Property Insurance: A 
+Case Study 
+ 
+Rizki Kurniawatia, Achmad Choiruddinb 
+aDepartment of Technology Management, Institut Teknologi Sepuluh Nopember, Surabaya 60111, Indonesia 
+bDepartment of S
+
+--- TAIL ---
+ Lanh, Ho, Al-Ansari, Nadhir, Lê, Hiệp, Van Quan, Tran, Prakash, Indra, Pham, and Binh. (2021) “Influence 
+of Data Splitting on Performance of Machine Learning Models in Prediction of Shear Strength of Soil ”. Mathematical Problems in 
+Engineering. 2021. 10.1155/2021/4832864. 
+[19] Scornet, Erwan. (2020). “Trees, forests, and impurity-based variable importance.”  
+[20] Muhammad Arief Fauzan, Hendri Murfi. (2018) “The Accuracy of XGBoost for Insurance Claim Prediction.” Advanced Computer Science 
+  and Applications: An International Journal 10 (2): 2074-8523. 
+[21] Mohamed Hanafy Kotb, Ruixing Ming. (2021) "Comparing SMOTE Family Techniques in Predicting Insurance Premium Defaulting using 
+Machine Learning Models." Advanced Computer Science and Applications: An International Journal 12 (9) 
+
+
+==========================================
+FILE: 9.pdf (Pages: 10)
+==========================================
+--- HEAD ---
+ScienceDirect
+Available online at www.sciencedirect.com
+Procedia Computer Science 275 (2026) 513–522
+1877-0509 © 2025 The Authors. Published by Elsevier B.V .
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the ACLing 2025: 7th International Conference on AI in Computational Linguistics
+© 2025 The Authors. Published by Elsevier B.V .
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the ACLing 2025: 7th International Conference on AI in 
+Computational Linguistics
+Keywords: Agentic AI; NLP; Benchmark; LLM; Generative Refinement; Uncertainty; Graph Extraction
+1. Introduction
+Contracts are a signature example of high-stakes documents where automated systems must reach a very high
+level of accuracy in order to be useful in production. Knowledge graphs have been proposed as one mechanism to
+∗ Corresponding author
+E-mail address: moriya.dechtiar@alumni.harvard.edu
+7th International Conference on AI in Computational Linguistics
+LLM as a 
+
+--- TAIL ---
+ N. (2021). LexGLUE: A benchmark dataset
+for legal language understanding in English. In Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (pp.
+4310-4330).
+[23] Guha, N., Nyarko, J., Ho, D., R ´e, C., Chilton, A., Chohlas-Wood, A., ... & Li, Z. (2023). Legalbench: A collaboratively built benchmark for
+measuring legal reasoning in large language models. Advances in neural information processing systems, 36, 44123-44279.
+[24] Manor, L., & Li, J. J. (2019). Plain English summarization of contracts. arXiv preprint arXiv:1906.00424.
+[25] Wang, W., Wei, F., Dong, L., Bao, H., Y ang, N., & Zhou, M. (2020). MiniLM: Deep self-attention distillation for task-agnostic compression
+of pre-trained transformers. Advances in Neural Information Processing Systems , 33.
+
+
+==========================================
+FILE: 10.pdf (Pages: 22)
+==========================================
+--- HEAD ---
+Vol.:(0123456789)
+Artificial Intelligence and Law (2026) 34:245–266
+https://doi.org/10.1007/s10506-024-09425-7
+ORIGINAL RESEARCH
+A case study for automated attribute extraction from legal 
+documents using large language models
+Subinay Adhikary1 · Procheta Sen2  · Dwaipayan Roy1 · Kripabandhu Ghosh1
+Accepted: 24 October 2024 / Published online: 11 November 2024 
+© The Author(s) 2024
+Abstract
+The escalating number of pending cases is a growing concern worldwide. Recent 
+advancements in digitization have opened up possibilities for leveraging artificial 
+intelligence (AI) tools in the processing of legal documents. Adopting a struc-
+tured representation for legal documents, as opposed to a mere bag-of-words flat 
+text representation, can significantly enhance processing capabilities. With the aim 
+of achieving this objective, we put forward a set of diverse attributes for criminal 
+case proceedings. To enhance the effectiveness of automatically extracting these 
+attributes from legal documents within a sequence labeling framework, we propose 
+the utilization of a few-shot learning approach based on Large Language Models 
+(LLMs). Moreover, we demonstrate the efficacy of the extracted a
+
+--- TAIL ---
+cognition 
+Via Large Language Models. arXiv preprint arXiv: 2304. 10428
+Wang H, Li J, Wu H, Hovy E, Sun Y (2022) Pre-trained language models and their applications. 
+Engineering
+Xu R, Luo F, Zhang Z, Tan C, Chang B, Huang S, Huang F (2021) Raise a child in large language model: 
+Towards effective and generalizable fine-tuning. Online and Punta Cana, Dominican Republic, Proc. 
+of EMNLP
+Zhang X, Li D, Wu X (2014) Parsing named entity as syntactic structure. In: Interspeech. Fifteenth 
+Annual Conference of the International Speech Communication Association
+Zhang B, Haddow B, Birch A (2023) Prompting Large Language Model for Machine Translation: A Case 
+Study
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps 
+and institutional affiliations.
+
+
+==========================================
+FILE: 11.pdf (Pages: 21)
+==========================================
+--- HEAD ---
+Heliyon 10 (2024) e30045
+Available online 24 April 2024
+2405-8440/© 2024 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/).
+Contentslistsavailableat ScienceDirect
+Heliyon
+journal homepage: www.cell.com/heliyon
+Research article
+Health insurance fraud detection based on multi-channel 
+heterogeneous graph structure learning
+BinshengHong a, PingLu b,∗, HangXu c, JiangtaoLu a, KaibiaoLin a, FanYang d,∗
+a School of Computer and Information Engineering, Xiamen University of Technology, Xiamen, 361024, Fujian Province, China
+b School of Economic and Management, Xiamen University of Technology, Xiamen, 361024, Fujian Province, China
+c Zhongshan Hospital Xiamen University, Xiamen, Fujian Province, China
+d Dept. of Automation, Xiamen University, Xiamen, Fujian Province, China
+A R T I C L E I N F O A B S T R A C T
+Keywords:
+Health insurance
+Fraud detection
+Heterogeneous graph neural networks
+Graph convolutional network
+Graph structure learning
+Health insurance fraud is becoming more common and impacting the fairness and sustainability 
+of the health insurance system. Traditional health insurance fraud 
+
+--- TAIL ---
+network, in: The World Wide Web Conference, 
+2019, pp.2022–2032.
+[67] Jin-Po Chen, Ping Lu, Fan Yang, Ruicong Chen, Kaibiao Lin, Medical insurance fraud detection using graph neural networks with spatio-temporal constraints, J. 
+Netw. Intell. 7 (2022) 480–498.
+[68] Jiangtao Lu, Kaibiao Lin, Ruicong Chen, Min Lin, Xin Chen, Ping Lu, Health insurance fraud detection by using an attributed heterogeneous information network 
+with a hierarchical attention mechanism, BMC Med. Inform. Decis. Mak. 23(1)  (2023) 1–17.
+[69] Michael P. LaValley, Logistic regression, Circulation 117(18)  (2008) 2395–2399.
+[70] Tianqi Chen, Carlos Guestrin, Xgboost: a scalable tree boosting system, in: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge 
+Discovery and Data Mining, 2016, pp.785–794.
+
+
+==========================================
+FILE: 12.pdf (Pages: 4)
+==========================================
+--- HEAD ---
+Technology in Society 78 (2024) 102644
+Available online 20 June 2024
+0160-791X/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/).
+Addressing the notion of trust around ChatGPT in the high-stakes use case 
+of insurance 
+Juliane Ressel
+a , *
+, Michaele V ¨oller
+b
+, Finbarr Murphy
+a
+, Martin Mullins
+a 
+a
+Kemmy Business School, University of Limerick, Limerick, V94 T9PX, Ireland 
+b
+Institute for Insurance Studies, TH K ¨oln, Gustav-Heinemann-Ufer 54, 50968, Cologne, Germany   
+ARTICLE INFO  
+Keywords: 
+ChatGPT 
+Large language models 
+Insurance 
+Governance 
+Trust 
+ABSTRACT  
+The public discourse concerning the level of (dis)trust in ChatGPT and other applications based on large language 
+models (LLMs) is loaded with generic, dread risk terms, while the heterogeneity of relevant theoretical concepts 
+and empirical measurements of trust further impedes in-depth analysis. Thus, a more nuanced understanding of 
+the factors driving the trust judgment call is essential to avoid unwarranted trust. In this commentary paper, we 
+propose that addressing the notion of trust in consumer-facing LLM-bas
+
+--- TAIL ---
+ 
+(Accessed 19 March 2024). 
+[28] X. Wei, X. Chu, J. Geng, Y. Wang, P. Wang, H. Wang, C. Wang, L. Lei, Societal 
+impacts of chatbot and mitigation strategies for negative impacts: a large-scale 
+qualitative survey of ChatGPT users, Technol. Soc. 77 (2024) 102566, https://doi. 
+org/10.1016/j.techsoc.2024.102566 . 
+[29] J. Rawls, A Theory of Justice, Harvard Univ. Press, 1971. URL: https://www.hup. 
+harvard.edu/books/9780674000780 . 
+[30] G.W. Clark, Betting on Lives: the Culture of Life Insurance in England, 1695-1775, 
+Manchester Univ. Press, 1999 . 
+J. Ressel et al.                                                                                                                                                                                                                                   
+
+
+==========================================
+FILE: 13.pdf (Pages: 6)
+==========================================
+--- HEAD ---
+ScienceDirect
+Available online at www.sciencedirect.com
+Procedia Computer Science 272 (2025) 451–456
+1877-0509 © 2025 The Authors. Published by Elsevier B.V .
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer review under the responsibility of the scientific committee of the Program Chairs.
+10.1016/j.procs.2025.10.230
+10.1016/j.procs.2025.10.230 1877-0509
+© 2025 The Authors. Published by Elsevier B.V .
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer review under the responsibility of the scientific committee of the Program Chairs.
+ 
+Available online at www.sciencedirect.com 
+ 
+Procedia Computer Science 00 (2023) 000–000  
+www.elsevier.com/locate/procedia 
+ 
+1877-0509 © 2025 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Peer-review under responsibility of the Conference Program Chairs.  
+The 3rd International Workshop on Digital Society: in the Eve of the 6th Information Revolution 
+(DS 2025)  
+October 28-30, 2025, Istanbul, Tü
+
+--- TAIL ---
+c extraction of constraints in regulations using pre -trained 
+language models.” Information Processing & Management 59 (4): 102971. 
+[11] Aitim, Aigerim, & Satybaldiyeva, R yskhan. (2025). A comparison of Kazakh language processing models for improving semantic search 
+results. Eastern-European Journal of Enterprise Technologies, 1(2 (133), 66–75. https://doi.org/10.15587/1729-4061.2025.315954 
+[12] Aitim Aigerim, Abdulla Muslima, “Data processing and analysing techniques in UX research”, Procedia Computer Science, 251, 2024, pp. 
+591-596, https://doi.org/10.1016/j.procs.2024.11.154 
+[13] Leivaditi, Eirini, Ilias Chalkidis, and Ion Androutsopoulos. (2021) “Benchmarking Legal NLP: The Case of Greek Legislation.” Proceedin gs 
+of the Natural Legal Language Processing Workshop, 43–52. 
+ 
+ 
+ 
+
+
+==========================================
+FILE: 14.pdf (Pages: 10)
+==========================================
+--- HEAD ---
+ 
+Contents lists available at ScienceDirect
+Machine Learning with Applications
+journal homepage: www.elsevier.com/locate/mlwa  
+Software engineering meets legal texts: LLMs for auto detection of contract 
+smellsI
+Moriya Dechtiar a
+ ,∗, Daniel Martin Katz b,c,d, Hongming Wang a
+a Harvard University, Cambridge, 02138, MA, USA
+b Illinois Tech-Chicago Kent College of Law, Chicago, 60616, IL, USA
+c CodeX - The Stanford Center for Legal Informatics, Stanford, 94305, CA, USA
+d Center for Legal Technology & Data Science, Bucerius Law School, Hamburg, 20355, Germany
+A R T I C L E  I N F O
+Keywords:
+LLMs
+Legal AI
+Hyper-parameters fine tuning
+BERT
+Contract smells
+Semi-automated labeling
+ A B S T R A C T
+Although there have been many major advances in Artificial Intelligence including its application to a wide 
+variety of tasks, some specialized domains remain difficult to tackle. In this work, we examine parallels between 
+software engineering and legal contract drafting and analysis. Porting well-known code smells principles to 
+various legal contracts, we introduce "contract smells," text patterns that are indicative of potentially significant 
+issues within contractual agreements. We lever
+
+--- TAIL ---
+ deep learning. arXiv:1904.03031.
+Soares, E., Aranda, M., Oliveira, N., Ribeiro, M., Gheyi, R., Souza, E., et al. (2023). 
+Manual tests do smell! cataloging and identifying natural language test smells. 
+In 2023 ACM/IEEE international symposium on empirical software engineering and 
+measurement (pp. 1–11). IEEE.
+Wang, Q., Ni, S., Liu, H., Lu, S., Chen, G., Feng, X., et al. (2024). AutoPatent: 
+A multi-agent framework for automatic patent generation. arXiv preprint arXiv:
+2412.09796.
+Zhong, H., Xiao, C., Tu, C., Zhang, T., Liu, Z., & Sun, M. (2020). How does NLP benefit 
+legal system: A summary of legal artificial intelligence. In Proceedings of the 58th 
+annual meeting of the association for computational linguistics (pp. 5218–5230).
+Machine Learning with Applications 20 (2025) 100639 
+10 
+
+
+==========================================
+FILE: 15.pdf (Pages: 15)
+==========================================
+--- HEAD ---
+Automated construction contract analysis for risk and responsibility 
+assessment using natural language processing and machine learning
+Irem Dikmen
+a , *
+, Gorkem Eken
+b
+, Huseyin Erol
+c
+, M. Talat Birgonul
+d
+a
+University of Reading, Whiteknights Campus, School of the Built Environment, Chancellor ’ s Building, Reading, Berkshire RG6 6AH, UK
+b
+Middle East Technical University, Civil Engineering Department, K1 Building, Ankara 06800, Turkey
+c
+Postdoc researcher in University of Reading, Whiteknights Campus, School of the Built Environment, Chancellor ’ s Building, Reading, Berkshire RG6 6AH, UK
+d
+Emeritus Professor in Middle East Technical University, Civil Engineering Department, K1 Building, Ankara 06800, Turkey
+ARTICLE INFO
+Keywords:
+Automated contract review
+Natural Language Processing (NLP)
+Machine Learning (ML)
+Artificial Intelligence (AI)
+Text classification
+Construction risk management
+ABSTRACT
+Construction contracts contain critical risk-related information that requires in-depth examination, yet tight 
+schedules for bidding limit the possibility of comprehensive review of extensive documents manually. This 
+research aims to develop models for automating the review of const
+
+--- TAIL ---
+tion. 2020 IEEE 16th International Conference on Automation 
+Science and Engineering (CASE), pp. 514–519. https://doi.org/10.1109/ 
+CASE48305.2020.9217017.
+Zhou, H., Gao, B., Tang, S., Li, B., Wang, S., 2023. Intelligent detection on construction 
+project contract missing clauses based on deep learning and NLP. Eng., Constr. 
+Archit. Manag. https://doi.org/10.1108/ECAM-02-2023-0172.
+Zhou, Z.-H., 2012. Combination methods. In Ensemble Methods (pp. 67–97). Chapman 
+and Hall/CRC. https://doi.org/10.1201/b12207.
+I. Dikmen et al.                                                                                                                                                                                                                                  Computers in Industry 166 (2025) 104251 
+15 
+
+

@@ -1,0 +1,402 @@
+[
+  {
+    "policy_id": "HEALTH_01",
+    "domain": "Health Insurance",
+    "provider": "HDFC ERGO",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/health/HEALTH_01_HDFC_ERGO.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/HEALTH_01.txt",
+    "page_count": 1,
+    "char_count": 3950,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "HEALTH_02",
+    "domain": "Health Insurance",
+    "provider": "HDFC ERGO",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/health/HEALTH_02_HDFC_ERGO.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/HEALTH_02.txt",
+    "page_count": 1,
+    "char_count": 3946,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "HEALTH_03",
+    "domain": "Health Insurance",
+    "provider": "ICICI Lombard",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/health/HEALTH_03_ICICI_Lombard.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/HEALTH_03.txt",
+    "page_count": 1,
+    "char_count": 3998,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "HEALTH_04",
+    "domain": "Health Insurance",
+    "provider": "ICICI Lombard",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/health/HEALTH_04_ICICI_Lombard.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/HEALTH_04.txt",
+    "page_count": 1,
+    "char_count": 3982,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "HEALTH_05",
+    "domain": "Health Insurance",
+    "provider": "Star Health",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/health/HEALTH_05_Star_Health.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/HEALTH_05.txt",
+    "page_count": 1,
+    "char_count": 3952,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "HEALTH_06",
+    "domain": "Health Insurance",
+    "provider": "Star Health",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/health/HEALTH_06_Star_Health.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/HEALTH_06.txt",
+    "page_count": 1,
+    "char_count": 3976,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "HEALTH_07",
+    "domain": "Health Insurance",
+    "provider": "Care Health Insurance",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/health/HEALTH_07_Care_Health_Insurance.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/HEALTH_07.txt",
+    "page_count": 1,
+    "char_count": 3940,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "HEALTH_08",
+    "domain": "Health Insurance",
+    "provider": "Care Health Insurance",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/health/HEALTH_08_Care_Health_Insurance.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/HEALTH_08.txt",
+    "page_count": 1,
+    "char_count": 3948,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "HEALTH_09",
+    "domain": "Health Insurance",
+    "provider": "Bajaj Allianz",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/health/HEALTH_09_Bajaj_Allianz.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/HEALTH_09.txt",
+    "page_count": 1,
+    "char_count": 3963,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "HEALTH_10",
+    "domain": "Health Insurance",
+    "provider": "Niva Bupa",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/health/HEALTH_10_Niva_Bupa.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/HEALTH_10.txt",
+    "page_count": 1,
+    "char_count": 3979,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "HEALTH_11",
+    "domain": "Health Insurance",
+    "provider": "Tata AIG",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/health/HEALTH_11_Tata_AIG.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/HEALTH_11.txt",
+    "page_count": 1,
+    "char_count": 3936,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "HEALTH_12",
+    "domain": "Health Insurance",
+    "provider": "SBI General",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/health/HEALTH_12_SBI_General.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/HEALTH_12.txt",
+    "page_count": 1,
+    "char_count": 3943,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "MOTOR_01",
+    "domain": "Motor Vehicle Insurance",
+    "provider": "Bajaj Allianz",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/motor/MOTOR_01_Bajaj_Allianz.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/MOTOR_01.txt",
+    "page_count": 1,
+    "char_count": 3982,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "MOTOR_02",
+    "domain": "Motor Vehicle Insurance",
+    "provider": "Tata AIG",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/motor/MOTOR_02_Tata_AIG.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/MOTOR_02.txt",
+    "page_count": 1,
+    "char_count": 3964,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "MOTOR_03",
+    "domain": "Motor Vehicle Insurance",
+    "provider": "ICICI Lombard",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/motor/MOTOR_03_ICICI_Lombard.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/MOTOR_03.txt",
+    "page_count": 1,
+    "char_count": 3992,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "MOTOR_04",
+    "domain": "Motor Vehicle Insurance",
+    "provider": "HDFC ERGO",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/motor/MOTOR_04_HDFC_ERGO.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/MOTOR_04.txt",
+    "page_count": 1,
+    "char_count": 3964,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "MOTOR_05",
+    "domain": "Motor Vehicle Insurance",
+    "provider": "SBI General",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/motor/MOTOR_05_SBI_General.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/MOTOR_05.txt",
+    "page_count": 1,
+    "char_count": 3957,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "MOTOR_06",
+    "domain": "Motor Vehicle Insurance",
+    "provider": "Care Health Insurance",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/motor/MOTOR_06_Care_Health_Insurance.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/MOTOR_06.txt",
+    "page_count": 1,
+    "char_count": 3936,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "MOTOR_07",
+    "domain": "Motor Vehicle Insurance",
+    "provider": "Star Health",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/motor/MOTOR_07_Star_Health.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/MOTOR_07.txt",
+    "page_count": 1,
+    "char_count": 3959,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "MOTOR_08",
+    "domain": "Motor Vehicle Insurance",
+    "provider": "Bajaj Allianz",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/motor/MOTOR_08_Bajaj_Allianz.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/MOTOR_08.txt",
+    "page_count": 1,
+    "char_count": 3974,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "MOTOR_09",
+    "domain": "Motor Vehicle Insurance",
+    "provider": "Tata AIG",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/motor/MOTOR_09_Tata_AIG.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/MOTOR_09.txt",
+    "page_count": 1,
+    "char_count": 3946,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "MOTOR_10",
+    "domain": "Motor Vehicle Insurance",
+    "provider": "ICICI Lombard",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/motor/MOTOR_10_ICICI_Lombard.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/MOTOR_10.txt",
+    "page_count": 1,
+    "char_count": 3985,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "TRAVEL_01",
+    "domain": "Travel Insurance",
+    "provider": "Tata AIG",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/travel/TRAVEL_01_Tata_AIG.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/TRAVEL_01.txt",
+    "page_count": 1,
+    "char_count": 3942,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "TRAVEL_02",
+    "domain": "Travel Insurance",
+    "provider": "Niva Bupa",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/travel/TRAVEL_02_Niva_Bupa.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/TRAVEL_02.txt",
+    "page_count": 1,
+    "char_count": 3968,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "TRAVEL_03",
+    "domain": "Travel Insurance",
+    "provider": "Bajaj Allianz",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/travel/TRAVEL_03_Bajaj_Allianz.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/TRAVEL_03.txt",
+    "page_count": 1,
+    "char_count": 3980,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "TRAVEL_04",
+    "domain": "Travel Insurance",
+    "provider": "HDFC ERGO",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/travel/TRAVEL_04_HDFC_ERGO.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/TRAVEL_04.txt",
+    "page_count": 1,
+    "char_count": 3966,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "TRAVEL_05",
+    "domain": "Travel Insurance",
+    "provider": "ICICI Lombard",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/travel/TRAVEL_05_ICICI_Lombard.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/TRAVEL_05.txt",
+    "page_count": 1,
+    "char_count": 3994,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "TRAVEL_06",
+    "domain": "Travel Insurance",
+    "provider": "Care Health Insurance",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/travel/TRAVEL_06_Care_Health_Insurance.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/TRAVEL_06.txt",
+    "page_count": 1,
+    "char_count": 3959,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "TRAVEL_07",
+    "domain": "Travel Insurance",
+    "provider": "Star Health",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/travel/TRAVEL_07_Star_Health.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/TRAVEL_07.txt",
+    "page_count": 1,
+    "char_count": 3957,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "TRAVEL_08",
+    "domain": "Travel Insurance",
+    "provider": "SBI General",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/travel/TRAVEL_08_SBI_General.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/TRAVEL_08.txt",
+    "page_count": 1,
+    "char_count": 3953,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "TRAVEL_09",
+    "domain": "Travel Insurance",
+    "provider": "Allianz Global",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/travel/TRAVEL_09_Allianz_Global.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/TRAVEL_09.txt",
+    "page_count": 1,
+    "char_count": 3944,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "LIFE_01",
+    "domain": "Life & Disability Insurance",
+    "provider": "LIC of India",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/life/LIFE_01_LIC_of_India.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/LIFE_01.txt",
+    "page_count": 1,
+    "char_count": 3963,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "LIFE_02",
+    "domain": "Life & Disability Insurance",
+    "provider": "HDFC Life",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/life/LIFE_02_HDFC_Life.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/LIFE_02.txt",
+    "page_count": 1,
+    "char_count": 3997,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "LIFE_03",
+    "domain": "Life & Disability Insurance",
+    "provider": "ICICI Prudential",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/life/LIFE_03_ICICI_Prudential.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/LIFE_03.txt",
+    "page_count": 1,
+    "char_count": 3963,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "LIFE_04",
+    "domain": "Life & Disability Insurance",
+    "provider": "SBI Life",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/life/LIFE_04_SBI_Life.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/LIFE_04.txt",
+    "page_count": 1,
+    "char_count": 3944,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "LIFE_05",
+    "domain": "Life & Disability Insurance",
+    "provider": "Tata AIG",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/life/LIFE_05_Tata_AIG.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/LIFE_05.txt",
+    "page_count": 1,
+    "char_count": 3957,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "LIFE_06",
+    "domain": "Life & Disability Insurance",
+    "provider": "Bajaj Allianz",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/life/LIFE_06_Bajaj_Allianz.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/LIFE_06.txt",
+    "page_count": 1,
+    "char_count": 3973,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "LIFE_07",
+    "domain": "Life & Disability Insurance",
+    "provider": "Care Health Insurance",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/life/LIFE_07_Care_Health_Insurance.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/LIFE_07.txt",
+    "page_count": 1,
+    "char_count": 3969,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "LIFE_08",
+    "domain": "Life & Disability Insurance",
+    "provider": "Bupa Global",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/life/LIFE_08_Bupa_Global.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/LIFE_08.txt",
+    "page_count": 1,
+    "char_count": 3948,
+    "status": "SUCCESS"
+  },
+  {
+    "policy_id": "LIFE_09",
+    "domain": "Life & Disability Insurance",
+    "provider": "Star Health",
+    "pdf_source": "/home/nullframe/Desktop/NLP/data/dataset2_raw/life/LIFE_09_Star_Health.pdf",
+    "extracted_txt": "/home/nullframe/Desktop/NLP/data/dataset2_extracted/LIFE_09.txt",
+    "page_count": 1,
+    "char_count": 3976,
+    "status": "SUCCESS"
+  }
+]

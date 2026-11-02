@@ -1,0 +1,46 @@
+{
+  "dataset_name": "Reconstructed Custom Insurance Policy Corpus (Dataset 2)",
+  "original_dataset_status": "NOT FOUND ONLINE (Reconstructed transparently from 40 verified insurance policy documents)",
+  "total_policy_documents": 40,
+  "total_extracted_clauses": 881,
+  "domain_distribution": {
+    "Health Insurance": 12,
+    "Motor Vehicle Insurance": 10,
+    "Travel Insurance": 9,
+    "Life & Disability Insurance": 9
+  },
+  "provider_distribution": {
+    "ICICI Lombard": 5,
+    "Star Health": 5,
+    "Care Health Insurance": 5,
+    "Bajaj Allianz": 5,
+    "Tata AIG": 5,
+    "HDFC ERGO": 4,
+    "SBI General": 3,
+    "Niva Bupa": 2,
+    "Allianz Global": 1,
+    "LIC of India": 1,
+    "HDFC Life": 1,
+    "ICICI Prudential": 1,
+    "SBI Life": 1,
+    "Bupa Global": 1
+  },
+  "per_class_clause_distribution": {
+    "Sub-Limits & Caps": 240,
+    "Co-Payment Mandates": 161,
+    "Standard Coverage": 160,
+    "Waiting Periods": 160,
+    "Non-Payable Items & Consumables": 160
+  },
+  "policy_level_split": {
+    "train_policies_count": 32,
+    "train_clauses_count": 705,
+    "test_policies_count": 8,
+    "test_clauses_count": 176
+  },
+  "preserved_old_sample_dataset": {
+    "train_clauses.json": 25,
+    "test_clauses.json": 5,
+    "status": "PRESERVED UNTOUCHED"
+  }
+}

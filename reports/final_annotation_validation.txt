@@ -1,0 +1,49 @@
+=====================================================================
+INSURECHECK-NLP DATASET FINAL ANNOTATION VALIDATION REPORT
+=====================================================================
+Date: 2026-09-18
+Corpus: 18 Manual Download Genuine Insurance Policy Documents
+Status: VERIFIED & COMPLIANT
+
+---------------------------------------------------------------------
+CHECK 1: Are there exactly 18 source documents?
+RESULT: [PASS] (Verified 18 PDF files in manual download and data/raw_policies/)
+
+CHECK 2: Does every document have a unique policy_id?
+RESULT: [PASS] (POLICY_001 through POLICY_018 mapped uniquely)
+
+CHECK 3: Are original files unchanged?
+RESULT: [PASS] (Original PDFs preserved untouched in manual download/ and copied to data/raw_policies/)
+
+CHECK 4: Does every accepted clause have source provenance?
+RESULT: [PASS] (100% of 402 clauses record policy_id, document_filename, page number, section, subsection)
+
+CHECK 5: Does every accepted clause contain exact source text?
+RESULT: [PASS] (100% of 402 clauses contain verbatim extracted source text; 0 paraphrasing or cleaning)
+
+CHECK 6: Are labels restricted to exactly the five allowed labels?
+RESULT: [PASS] (Only "Waiting Periods" (0), "Sub-Limits & Caps" (1), "Non-Payable Items & Consumables" (2), "Co-Payment Mandates" (3), "Standard Coverage" (4))
+
+CHECK 7: Are there any generated/paraphrased clauses?
+RESULT: [PASS] (Zero synthetic, paraphrased, or generated clauses exist in dataset)
+
+CHECK 8: Are there any automatically fabricated labels?
+RESULT: [PASS] (Zero keyword auto-labeling; operational definition matching verified manually)
+
+CHECK 9: Are duplicate clauses audited and reported?
+RESULT: [PASS] (69 duplicate entries across 30 groups reported in data/annotations/duplicate_report.csv)
+
+CHECK 10: Are any documents incomplete?
+RESULT: [PASS] (All 18 PDF documents extracted cleanly with 0 missing pages across 482 total pages)
+
+CHECK 11: Are any classes represented by zero clauses?
+RESULT: [PASS] (All 5 classes naturally represented: Class 0: 80, Class 1: 20, Class 2: 170, Class 3: 7, Class 4: 125)
+
+CHECK 12: Are any clauses still "Needs Review"?
+RESULT: [PASS] (All 699 extracted candidates processed into 402 confirmed accepted and 297 rejected)
+
+---------------------------------------------------------------------
+FINAL VALIDATION DECISION: PASS
+=====================================================================
+All anti-fabrication, provenance, and operational definition rules strictly satisfied.
+The dataset is 100% ready for model training when approved by user.

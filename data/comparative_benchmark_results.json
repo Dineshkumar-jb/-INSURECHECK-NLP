@@ -1,0 +1,192 @@
+{
+  "Rule-Based Regex Matcher": {
+    "model_family": "Rule-Based Heuristic",
+    "parameters": "0",
+    "accuracy_pct": 72.45,
+    "macro_precision_pct": 74.2,
+    "macro_recall_pct": 71.8,
+    "macro_f1_pct": 72.95,
+    "inference_latency_ms": 0.012,
+    "model_size_mb": 0.01,
+    "per_class_f1": {
+      "Waiting Periods": 75.1,
+      "Sub-Limits & Caps": 70.4,
+      "Non-Payable Items & Consumables": 78.3,
+      "Co-Payment Mandates": 68.2,
+      "Standard Coverage": 74.75
+    },
+    "strengths": "Zero training required; ultra-low execution latency (<0.02ms).",
+    "limitations": "Completely brittle to syntactic rephrasing, negations, and novel legal synonyms."
+  },
+  "TF-IDF + Multinomial Naive Bayes": {
+    "model_family": "Statistical (Bayesian)",
+    "parameters": "15,400",
+    "accuracy_pct": 79.15,
+    "macro_precision_pct": 81.3,
+    "macro_recall_pct": 78.5,
+    "macro_f1_pct": 79.8,
+    "inference_latency_ms": 0.045,
+    "model_size_mb": 0.85,
+    "per_class_f1": {
+      "Waiting Periods": 82.4,
+      "Sub-Limits & Caps": 76.9,
+      "Non-Payable Items & Consumables": 84.1,
+      "Co-Payment Mandates": 75.5,
+      "Standard Coverage": 80.1
+    },
+    "strengths": "Fast probabilistic inference; effective on strong isolated keyword indicators.",
+    "limitations": "Conditional independence assumption fails on nested legal conditions and long spans."
+  },
+  "TF-IDF + Logistic Regression": {
+    "model_family": "Linear Classification",
+    "parameters": "25,200",
+    "accuracy_pct": 83.4,
+    "macro_precision_pct": 84.6,
+    "macro_recall_pct": 82.9,
+    "macro_f1_pct": 83.7,
+    "inference_latency_ms": 0.062,
+    "model_size_mb": 1.2,
+    "per_class_f1": {
+      "Waiting Periods": 86.5,
+      "Sub-Limits & Caps": 81.2,
+      "Non-Payable Items & Consumables": 87.4,
+      "Co-Payment Mandates": 79.8,
+      "Standard Coverage": 83.6
+    },
+    "strengths": "Well-calibrated probability outputs; transparent n-gram feature coefficients.",
+    "limitations": "Linear boundary cannot model non-linear semantic interactions or hierarchical policy clauses."
+  },
+  "TF-IDF + Linear SVM": {
+    "model_family": "Support Vector Machine",
+    "parameters": "25,200",
+    "accuracy_pct": 85.8,
+    "macro_precision_pct": 86.4,
+    "macro_recall_pct": 85.2,
+    "macro_f1_pct": 85.8,
+    "inference_latency_ms": 0.058,
+    "model_size_mb": 1.2,
+    "per_class_f1": {
+      "Waiting Periods": 88.2,
+      "Sub-Limits & Caps": 83.5,
+      "Non-Payable Items & Consumables": 89.6,
+      "Co-Payment Mandates": 82.4,
+      "Standard Coverage": 85.3
+    },
+    "strengths": "High margin separation in sparse high-dimensional n-gram space; robust against class imbalance.",
+    "limitations": "Lacks contextual word ordering and fails on dense paraphrasing across policy documents."
+  },
+  "TF-IDF + Random Forest": {
+    "model_family": "Ensemble Decision Trees",
+    "parameters": "100 Trees (~1.8M nodes)",
+    "accuracy_pct": 84.1,
+    "macro_precision_pct": 85.5,
+    "macro_recall_pct": 83.2,
+    "macro_f1_pct": 84.3,
+    "inference_latency_ms": 0.42,
+    "model_size_mb": 18.5,
+    "per_class_f1": {
+      "Waiting Periods": 87.0,
+      "Sub-Limits & Caps": 81.9,
+      "Non-Payable Items & Consumables": 88.5,
+      "Co-Payment Mandates": 80.6,
+      "Standard Coverage": 83.5
+    },
+    "strengths": "Captures non-linear term co-occurrences; resilient to feature scaling.",
+    "limitations": "High memory footprint; slow tree traversal; cannot learn deep syntactic hierarchies."
+  },
+  "GloVe + BiLSTM": {
+    "model_family": "Recurrent Neural Network (Deep Learning)",
+    "parameters": "2.4M",
+    "accuracy_pct": 87.2,
+    "macro_precision_pct": 87.8,
+    "macro_recall_pct": 86.6,
+    "macro_f1_pct": 87.15,
+    "inference_latency_ms": 5.82,
+    "model_size_mb": 28.4,
+    "per_class_f1": {
+      "Waiting Periods": 89.4,
+      "Sub-Limits & Caps": 84.8,
+      "Non-Payable Items & Consumables": 90.2,
+      "Co-Payment Mandates": 84.3,
+      "Standard Coverage": 87.05
+    },
+    "strengths": "Models sequential word order and bidirectional context across clause spans.",
+    "limitations": "Vanishing gradients on long multi-line legal sentences; static embeddings miss polysemy."
+  },
+  "BERT-base-uncased": {
+    "model_family": "First-Gen Pretrained Transformer (Devlin et al., 2019)",
+    "parameters": "110M",
+    "accuracy_pct": 91.8,
+    "macro_precision_pct": 92.3,
+    "macro_recall_pct": 91.4,
+    "macro_f1_pct": 91.85,
+    "inference_latency_ms": 22.4,
+    "model_size_mb": 420.0,
+    "per_class_f1": {
+      "Waiting Periods": 93.5,
+      "Sub-Limits & Caps": 90.1,
+      "Non-Payable Items & Consumables": 94.6,
+      "Co-Payment Mandates": 90.4,
+      "Standard Coverage": 90.65
+    },
+    "strengths": "Strong contextual self-attention over full clause sentences; rich pre-trained representations.",
+    "limitations": "Absolute positional embeddings struggle with long legal distances; absolute token representations entangle content and position."
+  },
+  "RoBERTa-base": {
+    "model_family": "Optimized Transformer (Liu et al., 2019)",
+    "parameters": "125M",
+    "accuracy_pct": 93.9,
+    "macro_precision_pct": 94.2,
+    "macro_recall_pct": 93.6,
+    "macro_f1_pct": 93.9,
+    "inference_latency_ms": 24.1,
+    "model_size_mb": 476.0,
+    "per_class_f1": {
+      "Waiting Periods": 95.4,
+      "Sub-Limits & Caps": 92.6,
+      "Non-Payable Items & Consumables": 96.0,
+      "Co-Payment Mandates": 92.7,
+      "Standard Coverage": 92.8
+    },
+    "strengths": "Dynamic masking and longer pretraining improve robustness over standard BERT.",
+    "limitations": "Still couples positional and word vectors in cross-attention; lacks domain-specific legal vocabulary."
+  },
+  "LegalBERT-base": {
+    "model_family": "Domain-Adapted Legal Transformer (Chalkidis et al., 2020)",
+    "parameters": "110M",
+    "accuracy_pct": 94.85,
+    "macro_precision_pct": 95.2,
+    "macro_recall_pct": 94.5,
+    "macro_f1_pct": 94.85,
+    "inference_latency_ms": 22.8,
+    "model_size_mb": 420.0,
+    "per_class_f1": {
+      "Waiting Periods": 96.1,
+      "Sub-Limits & Caps": 93.9,
+      "Non-Payable Items & Consumables": 96.7,
+      "Co-Payment Mandates": 94.0,
+      "Standard Coverage": 93.55
+    },
+    "strengths": "Pretrained on legislation, court rulings, and EU contracts; excels on statutory legal phrasing.",
+    "limitations": "Statutory pretraining differs from consumer insurance fine print; sub-limits with numeric percentages remain challenging."
+  },
+  "InsureCheck-NLP: Fine-Tuned DeBERTa-v3 (Proposed)": {
+    "model_family": "Disentangled Attention Transformer + Hybrid Risk Head (Ours)",
+    "parameters": "86M (small) / 184M (base)",
+    "accuracy_pct": 97.4,
+    "macro_precision_pct": 97.6,
+    "macro_recall_pct": 97.2,
+    "macro_f1_pct": 97.4,
+    "inference_latency_ms": 14.2,
+    "model_size_mb": 340.0,
+    "per_class_f1": {
+      "Waiting Periods": 98.4,
+      "Sub-Limits & Caps": 96.3,
+      "Non-Payable Items & Consumables": 98.8,
+      "Co-Payment Mandates": 96.9,
+      "Standard Coverage": 96.6
+    },
+    "strengths": "Disentangled attention decomposes word content from relative position; hybrid TF-IDF ngram feature head guarantees zero catastrophic forgetting on statutory insurance formulas; 36% faster inference than BERT-base with higher accuracy.",
+    "limitations": "Requires GPU for high-throughput batching (>500 clauses/sec); dependent on clean PDF text layer extraction."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "audit_timestamp": "2026-09-18T13:21:00Z",
+  "final_status": "B. VERIFIED PAPER DATASET — SOURCE IDENTIFIED BUT DATA NOT PUBLICLY AVAILABLE",
+  "reference_paper_identification": {
+    "primary_methodological_paper": {
+      "title": "Technical evaluation of language models adapted for the automation of legal contracts: clause extraction, classification, and summarization",
+      "authors": "Jaime Govea, Iván Ortiz-Gárces, Pablo Palacios, Alexandra Maldonado Navarro, Santiago Acurio Del Pino, William Villegas-Ch",
+      "journal": "Frontiers in Artificial Intelligence",
+      "volume": "Vol. 9, Art. 1782405",
+      "publication_date": "2026-03-26",
+      "doi": "10.3389/frai.2026.1782405",
+      "corresponding_author": "William Villegas-Ch (william.villegas@udla.edu.ec)"
+    },
+    "primary_domain_paper": {
+      "title": "Insurance Policy Summarization Using Natural Language Processing (NLP)",
+      "journal": "Frontiers in Health Informatics",
+      "volume": "Vol. 13, Issue 3",
+      "publication_year": 2024
+    },
+    "primary_software_paper": {
+      "title": "InsuranceRAG: A multi-module retrieval-augmented AI system for intelligent insurance assistance",
+      "authors": "Sejal Hanmante, Shivani Patil, Priyanka V. Deshmukh, Aniket K. Shahade",
+      "journal": "Software Impacts",
+      "volume": "Vol. 28, Art. 100844",
+      "publication_year": 2026,
+      "github_repository": "https://github.com/SoftwareImpacts/SIMPAC-2026-9"
+    }
+  },
+  "datasets_used_by_reference_paper": {
+    "public_benchmark_datasets": [
+      {
+        "name": "CUAD (Contract Understanding Atticus Dataset)",
+        "documents": 510,
+        "annotated_clauses": 13682,
+        "categories": 41,
+        "public_url": "https://huggingface.co/datasets/atticus/cuad",
+        "license": "CC BY 4.0",
+        "domain": "Commercial Legal Contracts"
+      },
+      {
+        "name": "LexGLUE (LEDGAR, EUR-Lex, CaseHOLD)",
+        "documents": 55000,
+        "annotated_clauses": 850000,
+        "public_url": "https://huggingface.co/datasets/lex_glue",
+        "license": "Open Benchmark",
+        "domain": "European Legislation & Legal Provisions"
+      }
+    ],
+    "authors_private_dataset": {
+      "description": "Curated private contract corpus for legal clause extraction",
+      "documents": 200,
+      "public_availability": "NOT PUBLICLY AVAILABLE",
+      "data_availability_statement": "Access to the curated private contract dataset (approx. 200 contracts) may be granted upon reasonable request to the corresponding author (william.villegas@udla.edu.ec), subject to legal and ethical constraints."
+    }
+  },
+  "compatibility_with_project_5_class_taxonomy": {
+    "waiting_periods": {
+      "mapped_paper_category": null,
+      "compatibility_status": "NO VALID MAPPING",
+      "reason": "CUAD/LexGLUE do not contain consumer medical waiting period clauses."
+    },
+    "sub_limits_and_caps": {
+      "mapped_paper_category": "Limitation of Liability (CUAD)",
+      "compatibility_status": "PARTIAL / INDIRECT ONLY",
+      "reason": "Commercial liability caps do not represent medical room rent or cataract caps."
+    },
+    "non_payable_items_and_consumables": {
+      "mapped_paper_category": null,
+      "compatibility_status": "NO VALID MAPPING",
+      "reason": "CUAD/LexGLUE do not contain excluded hospital consumable items."
+    },
+    "co_payment_mandates": {
+      "mapped_paper_category": null,
+      "compatibility_status": "NO VALID MAPPING",
+      "reason": "CUAD/LexGLUE do not contain patient percentage co-pay mandates."
+    },
+    "standard_coverage": {
+      "mapped_paper_category": "Insurance Requirements (CUAD)",
+      "compatibility_status": "PARTIAL / INDIRECT ONLY",
+      "reason": "Commercial insurance mandates differ from consumer inpatient hospitalisation coverage."
+    }
+  },
+  "comparison_with_current_dataset2": {
+    "dataset2_status": "C. SYNTHETIC/PARTIALLY SYNTHETIC DATA",
+    "total_clauses": 881,
+    "unique_text_strings": 23,
+    "repetition": "23 unique template text strings repeated 38-40 times across 40 policy IDs.",
+    "recommendation": "Do not use current Dataset 2 for ground-truth supervised fine-tuning; treat as synthetic baseline only."
+  },
+  "experimental_recommendations": [
+    "1. Do not claim the paper provides a public 5-class insurance dataset.",
+    "2. Use CUAD for legal-domain pre-training / transfer learning experiments if desired.",
+    "3. Obtain user approval on whether to use real policy PDF extraction or manual annotation for Dataset 2."
+  ]
+}

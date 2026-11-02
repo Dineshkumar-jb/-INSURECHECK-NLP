@@ -1,0 +1,110 @@
+[
+  {
+    "text": "Expenses related to any pre-existing medical condition shall not be covered until 36 consecutive months of continuous coverage.",
+    "label": "Waiting Periods"
+  },
+  {
+    "text": "A waiting period of 24 months from policy inception applies for specific surgeries including cataract and joint replacements.",
+    "label": "Waiting Periods"
+  },
+  {
+    "text": "30 days initial waiting period applies from policy start date for all non-accidental illness claims.",
+    "label": "Waiting Periods"
+  },
+  {
+    "text": "Pre-existing hypertension, diabetes, and cardiac ailments are subject to a 48-month continuous waiting period.",
+    "label": "Waiting Periods"
+  },
+  {
+    "text": "Hernia, hydrocele, and spinal disorders carry a mandatory 2-year waiting period before claim eligibility.",
+    "label": "Waiting Periods"
+  },
+  {
+    "text": "Pre-existing asthma and kidney disorders have a 36-month moratorium period.",
+    "label": "Waiting Periods"
+  },
+  {
+    "text": "Daily room rent is capped at 1% of total sum insured per day for normal private single rooms.",
+    "label": "Sub-Limits & Caps"
+  },
+  {
+    "text": "Cataract surgery treatment is subject to a maximum sub-limit cap of $300 per eye.",
+    "label": "Sub-Limits & Caps"
+  },
+  {
+    "text": "ICU room charges are capped at 2% of sum insured per day.",
+    "label": "Sub-Limits & Caps"
+  },
+  {
+    "text": "Robotic and cyberknife surgery expenses are subject to an overall sub-limit of $1000 per policy year.",
+    "label": "Sub-Limits & Caps"
+  },
+  {
+    "text": "Maternity benefit claim payout is capped at $500 for normal delivery and $800 for C-section.",
+    "label": "Sub-Limits & Caps"
+  },
+  {
+    "text": "Ayush treatment expenses are subject to a sub-limit cap of $250 per policy year.",
+    "label": "Sub-Limits & Caps"
+  },
+  {
+    "text": "Consumable items such as PPE kits, registration charges, admission booklets, sterile gloves, and masks are non-payable.",
+    "label": "Non-Payable Items & Consumables"
+  },
+  {
+    "text": "Administrative fees, discharge documentation charges, and hospital room service charges are excluded from reimbursement.",
+    "label": "Non-Payable Items & Consumables"
+  },
+  {
+    "text": "Personal toiletries, thermometer, heating pads, and aprons are non-reimbursable consumable items.",
+    "label": "Non-Payable Items & Consumables"
+  },
+  {
+    "text": "Syringes, cotton rolls, and needle disposal containers are classified as non-payable hospital consumables.",
+    "label": "Non-Payable Items & Consumables"
+  },
+  {
+    "text": "Diagnostic kits, surgical gowns, and face shields are excluded from claim settlement.",
+    "label": "Non-Payable Items & Consumables"
+  },
+  {
+    "text": "Insured persons residing in Zone 1 cities or aged above 60 years shall bear a mandatory 20% co-payment.",
+    "label": "Co-Payment Mandates"
+  },
+  {
+    "text": "The policyholder shall pay a co-pay of 10% on every admissible claim for treatment in non-network hospitals.",
+    "label": "Co-Payment Mandates"
+  },
+  {
+    "text": "A compulsory deductible of $200 per hospitalisation claim applies prior to insurer liability.",
+    "label": "Co-Payment Mandates"
+  },
+  {
+    "text": "All claims filed for senior citizen dependents attract a mandatory 15% co-payment deduction.",
+    "label": "Co-Payment Mandates"
+  },
+  {
+    "text": "Inpatient hospitalisation cover includes room rent, nursing fees, surgeon charges, and anesthesia.",
+    "label": "Standard Coverage"
+  },
+  {
+    "text": "Emergency road ambulance service expenses up to $50 per trip are reimbursable under policy sum insured.",
+    "label": "Standard Coverage"
+  },
+  {
+    "text": "Pre-hospitalisation medical expenses incurred 30 days prior to hospital admission are covered.",
+    "label": "Standard Coverage"
+  },
+  {
+    "text": "Post-hospitalisation medical expenses incurred 60 days following hospital discharge are covered.",
+    "label": "Standard Coverage"
+  },
+  {
+    "text": "Cashless facility is available across all empaneled network hospitals nationwide.",
+    "label": "Standard Coverage"
+  },
+  {
+    "text": "Day care treatment procedures requiring less than 24 hours hospitalisation are fully covered.",
+    "label": "Standard Coverage"
+  }
+]

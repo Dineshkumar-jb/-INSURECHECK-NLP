@@ -1,0 +1,912 @@
+
+=======================================================
+PAPER FILE: 1.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+TYPE Original Research
+PUBLISHED 26 March 2026
+DOI 10.3389/frai.2026.1782405
+OPEN ACCESS
+EDITED BY
+Sugam Sharma,
+Iowa State University SUF/eLegalls LLC,
+United States
+REVIEWED BY
+Paolo Rosso,
+Universitat Politècnica de València, Spain
+Andrea Colombo,
+Polytechnic University of Milan, Italy
+Eason Chen,
+Carnegie Mellon University, United States
+*CORRESPONDENCE
+William Villegas-Ch
+william.villegas@udla.edu.ec
+†These authors have contributed equally
+to this work
+RECEIVED 13 January 2026
+REVISED 27 February 2026
+ACCEPTED 02 March 2026
+PUBLISHED 26 March 2026
+CITATION
+Govea J, Ortiz-Gárces I, Palacios P,
+Navarro AM, Del Pino SA and
+Villegas-Ch W (2026) Technical
+evaluation of language models adapted
+for the automation of legal contracts:
+clause extraction, classiﬁcation, and
+summarization.
+Front. Artif. Intell. 9:1782405.
+doi: 10.3389/frai.2026.1782405
+COPYRIGHT
+© 2026 Govea, Ortiz-Gárces, Palacios,
+Navarro, Del Pino and Villegas-Ch. This is
+an open-access article distributed under
+the terms 
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[ABSTRACT]:
+ abstractiongeneration.
+Since the previous metrics are insensitive to valid rewrites
+or legal paraphrases, we incorporate BERTScore, a semantic
+comparison metric based on contextual embeddings obtained by
+a legal domain BERT model. For each token in the generated
+digest, its cosine similarity with the tokens of the reference digest
+iscomputed,asdeﬁnedinEquation(13).
+BERTScore = 1
+|X|
+∑
+x∈X
+max
+y∈Y
+cosine(E(x), E(y)) (13)
+Where E(x) and E(y) are the embedding vectors of the
+generated and reference tokens respectively, andX, Y are the sets
+oftokensconsidered.
+All these metrics have been integrated into the evaluation
+environmentimplementedontopoftheHuggingFacepipelineand
+tools, including scikit-learn, seqeval, evaluate, and bert-score. For
+each metric, consistency was maintained in the evalua
+
+[RESULTS]:
+ results
+show consistent and statistically signiﬁcant performance gains for legally
+adaptedmodelsovergeneral-purposebaselines,achievingMacro-F1of0.921in
+classiﬁcation, span-level F1 of 0.903 in clause extraction, and ROUGE-L of 0.886
+in summarization (p < 0.01). Robustness analysis and cross-validation conﬁrm
+stabilityacrossheterogeneousprivate-sectorcontracttypes.Theﬁndingsshould
+be interpreted under the evaluated comparison regime and highlight that, in
+legally constrained multi-stage workﬂows, task-aligned supervision provides
+measurable structural beneﬁts that are not reducible to model sca
+
+[CONCLUSION]:
+ conclusionthattheobserved
+improvementsaresystematicratherthanaconsequenceofrandom
+variation in the data (Sills, 2024; Li et al., 2020). The consistency
+observed across heterogeneous folds and contractual categories
+suggests that the proposed pipeline generalizes well even in the
+presence of syntactic ambiguity, a common characteristic of real-
+worldlegaldocuments.
+The principal contribution of this work lies in formalizing a
+reproducible methodology for adapting and evaluating language
+modelsinlegallyconstraineddomainswithlimited annotateddata
+and moderate computational requirements. Controlle
+
+=======================================================
+PAPER FILE: 2.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+Frontiers in Health Informatics 
+ISSN-Online: 2676-7104 
+2024; Vol 13: Issue 3 
+ www.healthinformaticsjournal.com 
+Open Access 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+4774 
+ 
+Insurance Policy Summarization Using Natural Language Processing 
+(NLP) 
+ 
+Sapana Kolambe1 and Dr. Parminder Kaur2 
+1 Research Scholar, MGM University, Chhatrapati Sambhajinagar, Maharashtra, India 
+2 Professor, MGM University, Chhatrapati Sambhajinagar, Maharashtra, India 
+1sapanaborole07@gmail.com  
+Cite this paper as: Sapana Kolambe, Parminder Kaur (2024) Insurance Policy Summarization Using Natural 
+Language Processing (NLP). Frontiers in Health Informatics, 13 (3), 4774-4782 
+ 
+ 
+Abstract. Policyholders may encounter challenges in understanding important terms and conditions of 
+insurance policies due to their lengthiness and intricacy. This research investigates the usage of Natural 
+Language Processing (NLP) methods for automating summaries of insurance policy documents. Our approach 
+aims at producing concise and accurate summa
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[ABSTRACT]:
+ Abstract. Policyholders may encounter challenges in understanding important terms and conditions of 
+insurance policies due to their lengthiness and intricacy. This research investigates the usage of Natural 
+Language Processing (NLP) methods for automating summaries of insurance policy documents. Our approach 
+aims at producing concise and accurate summaries which highlights important aspects such as cover details, 
+exclusions and premiums through a combination of extraction-based and abstractive summarization strategies. 
+We elaborate on pre- processing procedures that consist of tokenization, part-of-speech tagging, text cleaning 
+among others; moreover, we explain how modern deep learning models like transformers are employed for 
+sentence creation and context understanding. To ensure 
+
+[RESULTS]:
+ results are accurate and consistent, 
+human evalu- ations were conducted in addition to standard metrics tests on the proposed sys- tem. Our findings 
+demonstrate that NLP is able to enhance the understandability of insurance products thus facilitating better 
+decision-making processes leading to higher levels of customer satisfaction. 
+ 
+Keywords: Insurance Policy Summarization, Natural Language Processing, In- surance Document Analysis. 
+ 
+1 Introduction 
+Insurance policies are basic documents containing the provisions of insurance con- tracts, such as coverage 
+limits, exclusions, premiums 
+
+[CONCLUSION]:
+ conclusion of the first task; 
+ text classification – definitions of text semantics for further processing 
+ named-entity recognition (NER) – definition and selection of entities with a predefined meaning (used to filter 
+text information and understand general se- mantics); 
+ summarization – the text generalization to a simplified version 
+ text generation – one of the tasks that are used to build AI-systems 
+ topic modeling – technique for extracting hidden topics from large text vol- umes. 
+ 
+Natural Language Processing use various metrics such as Edit distance, Cosine simi- larity, Ve
+
+=======================================================
+PAPER FILE: 3.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+Annals of Operations Research
+https://doi.org/10.1007/s10479-023-05631-9
+ORIGINAL RESEARCH
+AI-powered decision-making in facilitating insurance claim
+dispute resolution
+Wen Zhang 1 · Jingwen Shi 2 · Xiaojun Wang 3 · Henry Wynn 4
+Received: 30 November 2022 / Accepted: 28 September 2023
+© The Author(s) 2023
+Abstract
+Leveraging Artiﬁcial Intelligence (AI) techniques to empower decision-making can promote
+social welfare by generating signiﬁcant cost savings and promoting efﬁcient utilization of
+public resources, besides revolutionizing commercial operations. This study investigates
+how AI can expedite dispute resolution in road trafﬁc accident (RTA) insurance claims,
+beneﬁting all parties involved. Speciﬁcally, we devise and implement a disciplined AI-driven
+approach to derive the cost estimates and inform negotiation decision-making, compared to
+conventional practices that draw upon ofﬁcial guidance and lawyer experience. We build the
+investigation on 88 real-life RTA cases and detect an 
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[ABSTRACT]:
+ Abstract
+Leveraging Artiﬁcial Intelligence (AI) techniques to empower decision-making can promote
+social welfare by generating signiﬁcant cost savings and promoting efﬁcient utilization of
+public resources, besides revolutionizing commercial operations. This study investigates
+how AI can expedite dispute resolution in road trafﬁc accident (RTA) insurance claims,
+beneﬁting all parties involved. Speciﬁcally, we devise and implement a disciplined AI-driven
+approach to derive the cost estimates and inform negotiation decision-making, compared to
+conventional practices that draw upon ofﬁcial guidance and lawyer experience. We build the
+investigation on 88 real-life RTA cases and detect an asymptotic relationship between the
+ﬁnal judicial cost and the duration of the most severe injury, marked b
+
+[RESULTS]:
+ resultant beneﬁts versus the costs
+involved, which encompass a multitude of elements including the likely legal ramiﬁcations
+and the legal billings such as claims fees and attorney charges (see GOV .UK, 2021 for more
+cost details). Both parties can risk encountering more loss or costs, both money-wise and
+time-wise, if the amount of claim they initially seek or offer does not justify the fair val-
+uation of the injury damage. From the claimant’s perspective, this establishes expectations
+for recovery so that he would not claim an unreasonably high amount and would be better
+informed of whether
+
+[CONCLUSION]:
+ conclusion
+Despite the growing discussion of applying AI/data science in the ﬁnancial realm and insur-
+ance especially from both the academia (Hendershott, 2021) and industry (Balasubramanian,
+2018), little prior research has been conducted that meets the genuine needs of the industry
+and utilizes primary data. In this research, we demonstrate a practical application of AI in the
+insurance or legal professional service sector. We argue that this is a valuable topic since it not
+only brings beneﬁts to the involved companies such as insurance or legal professional service
+companies but also to o
+
+=======================================================
+PAPER FILE: 4.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+ScienceDirect
+Available online at www.sciencedirect.com
+Procedia Computer Science 224 (2023) 147–154
+1877-0509 © 2023 The Authors. Published by Elsevier B.V .
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the Conference Program Chair
+10.1016/j.procs.2023.09.022
+10.1016/j.procs.2023.09.022 1877-0509
+ 
+Available online at www.sciencedirect.com 
+ScienceDirect 
+Procedia Computer Science 00 (2023) 000–000  
+www.elsevier.com/locate/procedia 
+ 
+1877-0509 © 2023 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Peer-review under responsibility of the Conference Program Chairs.  
+The 20th International Conference on Mobile Systems and Pervasive Computing (MobiSPC)  
+August 14-16, 2023, Halifax, Nova Scotia, Canada 
+Transforming Health Insurance Claims Adjudicatio
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[ABSTRACT]:
+ Abstract 
+Over the past decade, the blockchain technology has gained a significant traction with the introduction of the “bitcoin”, the first 
+cryptocurrency back in 2008. The rapid growth of “bitcoin” as a currency and the Bitcoin as a protocol has served as a w ake-up 
+call to the IT community which began to realize the real potential of blockchain technology. Blockchain technology is capable  of 
+filling many gaps that traditional IT solutions struggle to address. In the other ha nd the increasing complexity of adju dicating 
+health insurance claims is an urge to introduce more secure and efficient claims adjudication system. Blockchain technology has 
+the potential to reshape the claims adjudication process not only due to its decentralized and tamper -proof features bu t to its 
+conse
+
+[RESULTS]:
+ result ing a lengthy claims settlement process, taking anywhere from a few days to a few 
+weeks, or even months [8]; In the other side of the spectrum , third-party companies are playing the role of claims 
+processing facilitator for the e conomies with advanced IT claims adjudication systems,  these central claims 
+adjudication entities are often content with the revenue gen erated by their automated systems, making it difficult to 
+introduce to the market new technologies, but  for these companies the threat of disruption is only a matter of time. 
+Blockchain technology presents an opportuni
+
+[CONCLUSION]:
+ conclusion will come the last in part 5.  
+ 
+2. Blockchain fundamental technical overview 
+2.1. What is a blockchain 
+As defined b y Yaga et al. [29] a blockchain is a decentralized ledger technology (DL) that secur ely records 
+transactions and eliminates the need of a central authority . This DL operates as a shared transactional database  
+recording all changes applied to a transaction.  The DL is accessible by all the members of the same network [24] 
+and every member has the same version of the truth and can validate the authenticity of the transaction at any time. 
+To maintain the data i
+
+=======================================================
+PAPER FILE: 5.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+Vol.:(0123456789)
+Digital Society (2024) 3:1
+https://doi.org/10.1007/s44206-023-00081-z
+1 3
+ORIGINAL PAPER 
+Explainable AI and Law: An Evidential Survey
+Karen McGregor Richmond1  · Satya M. Muddamsetty2 · 
+Thomas Gammeltoft‑Hansen1 · Henrik Palmer Olsen1 · Thomas B. Moeslund2
+Received: 11 June 2023 / Accepted: 31 October 2023 / Published online: 19 December 2023 
+© The Author(s) 2023
+Abstract
+Decisions made by legal adjudicators and administrative decision-makers often 
+found upon a reservoir of stored experiences, from which is drawn a tacit body of 
+expert knowledge. Such expertise may be implicit and opaque, even to the decision-
+makers themselves, and generates obstacles when implementing AI for automated 
+decision-making tasks within the legal field, since, to the extent that AI-powered 
+decision-making tools must found upon a stock of domain expertise, opacities may 
+proliferate. This raises particular issues within the legal domain, which requires a 
+high level of accountability
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[ABSTRACT]:
+ Abstract
+Decisions made by legal adjudicators and administrative decision-makers often 
+found upon a reservoir of stored experiences, from which is drawn a tacit body of 
+expert knowledge. Such expertise may be implicit and opaque, even to the decision-
+makers themselves, and generates obstacles when implementing AI for automated 
+decision-making tasks within the legal field, since, to the extent that AI-powered 
+decision-making tools must found upon a stock of domain expertise, opacities may 
+proliferate. This raises particular issues within the legal domain, which requires a 
+high level of accountability, thus transparency. This requires enhanced explainabil-
+ity, which entails that a heterogeneous body of stakeholders understand the mecha-
+nism underlying the algorithm to the extent tha
+
+[RESULTS]:
+ results. The arti-
+cle establishes a novel taxonomy, linking the differing forms of legal inference at 
+play within particular legal sub-domains to specific forms of algorithmic decision-
+making. The diverse categories demonstrate different dimensions in explainable AI 
+(XAI) research. Thus, the survey departs from the preceding monolithic approach 
+to legal reasoning and decision-making by incorporating heterogeneity in legal log-
+ics: a feature which requires elaboration, and should be accounted for when design-
+ing AI-driven decision-making systems for the legal field. It is thereby hoped t
+
+[CONCLUSION]:
+ conclusions, are 
+presented in Section 5.
+2  Conceptual Background: Explainability in AI and Explanations 
+in Law
+In order to proceed with the instant literature survey and analysis, it is necessary 
+to first establish a common point of understanding on what the term explainabil-
+ity means, both in the context of AI and within the legal domain. Notably, the 
+instant survey uncovered no commonly accepted definition of this term within 
+either discipline. Rather, explainability is used to signify a variety of different 
+phenomena. This section discusses the differences — and potential trade-offs
+
+=======================================================
+PAPER FILE: 6.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+Vol.:(0123456789)
+The Review of Socionetwork Strategies (2024) 18:101–121
+https://doi.org/10.1007/s12626-023-00153-z
+1 3
+ARTICLE
+Legal Information Retrieval and Entailment Using 
+Transformer‑based Approaches
+Mi‑Young Kim1  · Juliano Rabelo2 · Housam Khalifa Bashier Babiker3 · 
+Md Abed Rahman3 · Randy Goebel4
+Received: 31 August 2023 / Accepted: 28 November 2023 / Published online: 11 January 2024 
+© The Author(s) 2024
+Abstract
+The challenge of information overload in the legal domain increases every day. The 
+COLIEE competition has created four challenge tasks that are intended to encourage 
+the development of systems and methods to alleviate some of that pressure: a case 
+law retrieval (Task 1) and entailment (Task 2), and a statute law retrieval (Task 3) 
+and entailment (Task 4). Here we describe our methods for Task 1 and Task 4. In 
+Task 1, we used a sentence-transformer model to create a numeric representation 
+for each case paragraph. We then created a histogram of the similariti
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[ABSTRACT]:
+ Abstract
+The challenge of information overload in the legal domain increases every day. The 
+COLIEE competition has created four challenge tasks that are intended to encourage 
+the development of systems and methods to alleviate some of that pressure: a case 
+law retrieval (Task 1) and entailment (Task 2), and a statute law retrieval (Task 3) 
+and entailment (Task 4). Here we describe our methods for Task 1 and Task 4. In 
+Task 1, we used a sentence-transformer model to create a numeric representation 
+for each case paragraph. We then created a histogram of the similarities between 
+a query case and a candidate case. The histogram is used to build a binary classi-
+fier that decides whether a candidate case should be noticed or not. In Task 4, our 
+approach relies on fine-tuning a pre-train
+
+[RESULTS]:
+ results 
+achieved, and comment on future work to further improve our models.
+The case law retrieval task (Task 1) involves identifying legal cases that should 
+be “noticed” concerning a given query case from amongst a given set of candidate 
+cases. In Task 1, our goal is to identify legal cases that are relevant to a given query 
+case and that support the decision of the given query case. These relevant legal cases 
+are referred to as “noticed cases.” in Task 1. Our approach to this challenging task 
+relies on a transformer-based model that creates a multidimensional numeric repre-
+sentation o
+
+[CONCLUSION]:
+ conclusion. While the condition matches in both the article and 
+query, the “if” condition differs. Therefore, the correct entailment label should be 
+“no”. Stacking-Voting made the correct prediction.
+Legal-BERT-ECHR showed the fewest errors when answering the queries related 
+to paraphrasing. This could be because Legal-BERT-ECHR was pre-trained on legal 
+corpora, whereas the other two models were pre-trained on general domain corpora. 
+Following is an example that shows paraphrasing between the article and query:
+– Input
+– [Input Article] Article 449: If a guarantor that guarantees an oblig
+
+=======================================================
+PAPER FILE: 7.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+Software Impacts 28 (2026) 100844
+ 
+Contents lists available at ScienceDirect
+Software Impacts
+journal homepage: www.journals.elsevier.com/software-impacts  
+Original Software Publication
+InsuranceRAG: A multi-module retrieval-augmented AI system for intelligent 
+insurance assistance
+Sejal Hanmante, Shivani Patil, Priyanka V. Deshmukh, Aniket K. Shahade ∗
+Symbiosis Institute of Technology, Pune Campus, Symbiosis International (Deemed University), Pune, India
+A R T I C L E  I N F O
+Keywords:
+Retrieval-augmented generation
+Health insurance software
+Natural language processing
+Policy recommendation system
+Document retrieval
+Open-source software
+ A B S T R A C T
+This article presents InsuranceRAG, an open-source software system designed to support intelligent interaction 
+with health insurance data using Retrieval-Augmented Generation (RAG). The software provides a Flask-based 
+web interface that enables users to submit  natural language queries, upload insurance policy documents, 
+and rec
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[RESULTS]:
+ result, there has been growing 
+interest in applying Artificial Intelligence (AI) and Natural Language
+Processing (NLP) techniques to improve transparency, accessibility, and 
+user engagement in insurance services [3,4].
+∗ Corresponding author.
+E-mail addresses: sejalhanmante@gmail.com (S. Hanmante), shivanipatil309@gmail.com (S. Patil), priyanka.deshmukh@sitpune.edu.in (P.V. Deshmukh), 
+aniket.shahade@sitpune.edu.in (A.K. Shahade).
+Recent advances in Large Language Models (LLMs) have signifi-
+cantly enhanced conversational AI systems, enabling more fluent and 
+context-aware responses in custo
+
+[CONCLUSION]:
+ Conclusion
+This software introduces a unified, retrieval-augmented AI frame-
+work that seamlessly integrates chatbot assistance, personalized policy 
+recommendation, and clause-level document retrieval for the insur-
+ance domain. By combining domain-adapted embeddings, FAISS-based 
+retrieval, large language models, and an evaluator agent, the system 
+delivers accurate, explainable, and user-focused insurance support. The 
+architecture establishes a scalable blueprint for deploying trustworthy 
+AI systems in regulated, document-heavy domains.
+11. Relationship to prior work
+The software describe
+
+=======================================================
+PAPER FILE: 8.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+ScienceDirect
+Available online at www.sciencedirect.com
+Procedia Computer Science 234 (2024) 520–526
+1877-0509 © 2023 The Authors. Published by Elsevier B.V .
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the Seventh Information Systems International Conference
+10.1016/j.procs.2024.03.035
+10.1016/j.procs.2024.03.035 1877-0509
+ 
+ 
+Available online at www.sciencedirect.com 
+ScienceDirect 
+Procedia Computer Science 00 (2023) 000–000  
+www.elsevier.com/locate/procedia 
+ 
+1877-0509 © 2023 The Authors. Published by ELSEVIER B.V. 
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) 
+Peer-review under responsibility of the scientific committee of the Seventh Information Systems International Conference. 
+Seventh Information Systems International Conference (ISICO 2023) 
+Optimizing Claim Assessment Process
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[ABSTRACT]:
+ Abstract 
+Predicting the property insurance claim has become very important due to the increasing demand for property and the fluctuati ng 
+number of monthly claims. However, current prediction methods suffer from limited feature important information and imbalanced 
+claim data. This research introduces a machine learning approach by considering demographic factors of insured objects and 
+marketing strategies to predict claim trends. The study also tackles data imbalance using the SMOTE technique. Results reveal that 
+random forest outperforms logistic regression, achieving a recall value of 96%. The research findings enable insurance companies 
+to better analyze insured risk profiles and manage the number of claims. 
+ 
+© 2023 The Authors. Published by ELSEVIER B.V.  
+This is an open acces
+
+[RESULTS]:
+ Results reveal that 
+random forest outperforms logistic regression, achieving a recall value of 96%. The research findings enable insurance companies 
+to better analyze insured risk profiles and manage the number of claims. 
+ 
+© 2023 The Authors. Published by ELSEVIER B.V.  
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0) 
+Peer-review under responsibility of the scientific committee of the Seventh Information Systems International Conference. 
+ 
+Keywords: Influence Variables; Insurance; Logistic Regression; Property Insurance Cla
+
+[CONCLUSION]:
+ conclusion, the f1 -score is a 
+metric that considers both precision and recall. The higher the f1 -score, the higher the precision and recall, making it 
+a better measure than accuracy. 
+To improve the accuracy of the classification model, the SMOTE process is implemented by adding training data 
+to the minor classes to form a balanced dataset. Next, the models built before and after SMOTE are evaluated, and the 
+model with the highest recall value is selected. This model is further broken down to obtain the importance score of 
+each feature. The important features will then be used to provid
+
+=======================================================
+PAPER FILE: 9.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+ScienceDirect
+Available online at www.sciencedirect.com
+Procedia Computer Science 275 (2026) 513–522
+1877-0509 © 2025 The Authors. Published by Elsevier B.V .
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the ACLing 2025: 7th International Conference on AI in Computational Linguistics
+© 2025 The Authors. Published by Elsevier B.V .
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer-review under responsibility of the scientific committee of the ACLing 2025: 7th International Conference on AI in 
+Computational Linguistics
+Keywords: Agentic AI; NLP; Benchmark; LLM; Generative Refinement; Uncertainty; Graph Extraction
+1. Introduction
+Contracts are a signature example of high-stakes documents where automated systems must reach a very high
+level of accuracy in order to be useful in production. Kno
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[ABSTRACT]:
+ Abstract
+We propose a calibrated, uncertainty-aware evaluation and agentic refinement framework that is structure-aware, semantically
+grounded, bias-aware, and compute-efficient. We apply this framework to the task of clause-level legal knowledge graph extraction
+from contracts, where both accuracy and confidence quantification matter. Instead of collapsing multiple evaluation signals into a
+single score, we treat inter-judge disagreement among complementary evaluators as a meaningful signal of epistemic uncertainty.
+Our multi-judge ensemble combines structural, semantic, and LLM-based judges and normalizes their outputs into a unified risk
+space. We show that the coe fficient of variation over judge risks achieves 0.982 AUC for error detection and, after isotonic re-
+gression, yields well
+
+[RESULTS]:
+ resulting dataset supports
+training reference-free uncertainty models as well as reference-free judges. Each sample provides:
+• Supervision signal: Judge disagreement (CV) and error labels validated through calibration (Section 3.2)
+• Reference-free features: Contract linter metrics [6] are used as free-from-gold judges, evaluating our produced
+graphs. (Orphans, unused definitions, broken references).
+• Training examples: 150 samples × (6 judges + 5 free judges) = labeled dataset for supervised learning518 Moriya Dechtiar  et al. / Procedia Computer Science 275 (2026) 513–522
+Future work can t
+
+[CONCLUSION]:
+ Conclusion
+We presented a multi-judge evaluation framework for contract graph extraction that quantifies uncertainty through
+judge disagreement and enables cost-e fficient selective refinement. Our approach demonstrates that reliable uncer-
+tainty signals make targeted quality enhancement economically viable for production deployment.
+Key Contributions. These findings advance uncertainty-aware evaluation for structured extraction:
+i Judge complementarity drives uncertainty. Structural judges, despite lower individual scores than semantic
+judges, contribute most to ensemble uncertainty. In the 
+
+=======================================================
+PAPER FILE: 10.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+Vol.:(0123456789)
+Artificial Intelligence and Law (2026) 34:245–266
+https://doi.org/10.1007/s10506-024-09425-7
+ORIGINAL RESEARCH
+A case study for automated attribute extraction from legal 
+documents using large language models
+Subinay Adhikary1 · Procheta Sen2  · Dwaipayan Roy1 · Kripabandhu Ghosh1
+Accepted: 24 October 2024 / Published online: 11 November 2024 
+© The Author(s) 2024
+Abstract
+The escalating number of pending cases is a growing concern worldwide. Recent 
+advancements in digitization have opened up possibilities for leveraging artificial 
+intelligence (AI) tools in the processing of legal documents. Adopting a struc-
+tured representation for legal documents, as opposed to a mere bag-of-words flat 
+text representation, can significantly enhance processing capabilities. With the aim 
+of achieving this objective, we put forward a set of diverse attributes for criminal 
+case proceedings. To enhance the effectiveness of automatically extracting these 
+attributes from legal docu
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[ABSTRACT]:
+ Abstract
+The escalating number of pending cases is a growing concern worldwide. Recent 
+advancements in digitization have opened up possibilities for leveraging artificial 
+intelligence (AI) tools in the processing of legal documents. Adopting a struc-
+tured representation for legal documents, as opposed to a mere bag-of-words flat 
+text representation, can significantly enhance processing capabilities. With the aim 
+of achieving this objective, we put forward a set of diverse attributes for criminal 
+case proceedings. To enhance the effectiveness of automatically extracting these 
+attributes from legal documents within a sequence labeling framework, we propose 
+the utilization of a few-shot learning approach based on Large Language Models 
+(LLMs). Moreover, we demonstrate the efficacy of 
+
+[RESULTS]:
+ resulting in the identification of a solution: the extraction of fine-grained 
+information (which we term as concepts, attributes, or tags). Our primary focus is 
+centered on uncovering a methodology for extracting the thematic perspective from 
+legal cases.
+Fine-grained information: Typically, to obtain an initial understanding of crime 
+case documents, Indian Penal Code (IPC) sections are commonly employed. For 
+instance, if a given case document includes IPC sections 300 and 302 along with 
+It was bein g advised  
+mob that the … ….sa ve  
+their lives.
+riot
+K unj ud eceased f ell 
+down  …. i
+
+[CONCLUSION]:
+ Conclusion and future work
+In this work, we propose a weak supervision-based sequence labeling approach 
+that leverages LLMs to generate samples for different predefined attributes for 
+a legal case document. Experimental results show that among black box LLMs, 
+LLAMA-2 performs the best for generating new samples for riot and evidence. 
+We also show the effectiveness of extracted attributes in two downstream tasks 
+namely judgment prediction and statute prediction. Notably, our results show that 
+Table 7  Addition of extracted spans with text impacts more fine-grained information, which yield
+
+=======================================================
+PAPER FILE: 11.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+Heliyon 10 (2024) e30045
+Available online 24 April 2024
+2405-8440/© 2024 The Author(s). Published by Elsevier Ltd. This is an open access article under the CC BY license
+(http://creativecommons.org/licenses/by/4.0/).
+Contentslistsavailableat ScienceDirect
+Heliyon
+journal homepage: www.cell.com/heliyon
+Research article
+Health insurance fraud detection based on multi-channel 
+heterogeneous graph structure learning
+BinshengHong a, PingLu b,∗, HangXu c, JiangtaoLu a, KaibiaoLin a, FanYang d,∗
+a School of Computer and Information Engineering, Xiamen University of Technology, Xiamen, 361024, Fujian Province, China
+b School of Economic and Management, Xiamen University of Technology, Xiamen, 361024, Fujian Province, China
+c Zhongshan Hospital Xiamen University, Xiamen, Fujian Province, China
+d Dept. of Automation, Xiamen University, Xiamen, Fujian Province, China
+A R T I C L E I N F O A B S T R A C T
+Keywords:
+Health insurance
+Fraud detection
+Heterogeneous graph neural networks
+Graph convolut
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[RESULTS]:
+ result, there is an urgent need for more accurate and ﬂexible analytics to detect 
+potential fraud. To address this, the Multi-channel Heterogeneous Graph Structured Learning-
+based health insurance fraud detection method (MHGSL) was proposed. MHGSL constructs 
+a graph of health insurance data from various entities, such as patients, departments, and 
+medicines, and employs graph structure learning to extract topological structure, features, and 
+semantic information to construct multiple graphs that reﬂect the diversity and complexity of the 
+data. We utilize deep learning methods such as het
+
+[CONCLUSION]:
+ Conclusion
+In this study, we propose an innovative approach based on multi-channel heterogeneous graph structure learning, named MHGSL, 
+for the health insurance fraud detection problem. Our goal is to develop an algorithm that can eﬀectively identify health insurance 
+fraud and improve fraud detection accuracy by deeply mining the complex structure and intrinsic associations of health insurance 
+data. To achieve this goal, we ﬁrst extracted the topology of the health insurance data nodes and generated a topology graph. Then, 
+we used the KNN algorithm to aggregate the features of neighboring 
+
+=======================================================
+PAPER FILE: 12.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+Technology in Society 78 (2024) 102644
+Available online 20 June 2024
+0160-791X/© 2024 The Authors. Published by Elsevier Ltd. This is an open access article under the CC BY license ( http://creativecommons.org/licenses/by/4.0/).
+Addressing the notion of trust around ChatGPT in the high-stakes use case 
+of insurance 
+Juliane Ressel
+a , *
+, Michaele V ¨oller
+b
+, Finbarr Murphy
+a
+, Martin Mullins
+a 
+a
+Kemmy Business School, University of Limerick, Limerick, V94 T9PX, Ireland 
+b
+Institute for Insurance Studies, TH K ¨oln, Gustav-Heinemann-Ufer 54, 50968, Cologne, Germany   
+ARTICLE INFO  
+Keywords: 
+ChatGPT 
+Large language models 
+Insurance 
+Governance 
+Trust 
+ABSTRACT  
+The public discourse concerning the level of (dis)trust in ChatGPT and other applications based on large language 
+models (LLMs) is loaded with generic, dread risk terms, while the heterogeneity of relevant theoretical concepts 
+and empirical measurements of trust further impedes in-depth analysis. Thus, a more nuanced und
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[ABSTRACT]:
+ ABSTRACT  
+The public discourse concerning the level of (dis)trust in ChatGPT and other applications based on large language 
+models (LLMs) is loaded with generic, dread risk terms, while the heterogeneity of relevant theoretical concepts 
+and empirical measurements of trust further impedes in-depth analysis. Thus, a more nuanced understanding of 
+the factors driving the trust judgment call is essential to avoid unwarranted trust. In this commentary paper, we 
+propose that addressing the notion of trust in consumer-facing LLM-based systems across the insurance industry 
+can confer enhanced specificity to this debate. The concept and role of trust are germane to this particular setting 
+due to the highly intangible nature of the product coupled with elevated levels of risk, complexity, and 
+
+[RESULTS]:
+ result in another leap 
+in possible use cases. Narrowing our focus to consumer-facing LLM- 
+based applications in front-end processes, such as sales, customer ser -
+vice, and underwriting, allows us to adopt a more nuanced perspective. 
+Additionally, insurance is strategically positioned to provide risk man -
+agement support and transfer mechanisms to LLM developers. The sec -
+tor’s substantial risk management expertise can thus help shape the 
+agenda and break the cycle of existential risk and emergency. Thus, in 
+this commentary paper, we propose to add greater specificity to the 
+current di
+
+[CONCLUSION]:
+ conclusions and future research directions 
+The storm of controversy provoked by the public release of ChatGPT 
+has alerted policymakers to the issue of effectively regulating generative 
+AI systems in the AI Act. This legislation, proposed by the European 
+Commission (EC) in 2021 and approved by the European Council on 21 
+May 2024, imposes extensive risk management and transparency stip -
+ulations on deployers of high-risk AI systems, and it is anticipated that 
+some insurance-specific AI systems will be designated as being high-risk. 
+In the interim prior to statute enactment, the EC has pu
+
+=======================================================
+PAPER FILE: 13.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+ScienceDirect
+Available online at www.sciencedirect.com
+Procedia Computer Science 272 (2025) 451–456
+1877-0509 © 2025 The Authors. Published by Elsevier B.V .
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer review under the responsibility of the scientific committee of the Program Chairs.
+10.1016/j.procs.2025.10.230
+10.1016/j.procs.2025.10.230 1877-0509
+© 2025 The Authors. Published by Elsevier B.V .
+This is an open access article under the CC BY-NC-ND license (https://creativecommons.org/licenses/by-nc-nd/4.0)
+Peer review under the responsibility of the scientific committee of the Program Chairs.
+ 
+Available online at www.sciencedirect.com 
+ 
+Procedia Computer Science 00 (2023) 000–000  
+www.elsevier.com/locate/procedia 
+ 
+1877-0509 © 2025 The Authors. Published by Elsevier B.V. 
+This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/) 
+Peer-review
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[ABSTRACT]:
+ Abstract 
+Legal and policy papers often articulate eligibility criteria in unstructured natural language, rendering automated reasoning over 
+these materials a formidable challenge. This study presents a transformer -based methodology for extracting structured eligibility 
+restrictions from legal and regulatory texts utilizing pre-trained language models, particularly BERT. The approach emphasizes the 
+identification of entities, the extraction of condition -action pairings, and the formalization of entitlement logic in a machine -
+readable manner. Each sentence is examined to see if it conveys an eligibility criterion, and if it does, the pertinent constraints are 
+extracted and organized into structured representations. The pipeline encompasses clause segmentation, legal condition annota
+
+[RESULTS]:
+ result 
+prediction (Chalkidis et al., 2019; Zhong et al., 2020). Although succ essful at the document level, such models 
+typically neglect the intricate logic contained inside individual phrases, like eligibility criteria or conditional rights.  
+Initiatives in named entity recognition (NER) and relation extraction have modified conve ntional methodologies for 
+legal texts to discern roles, duties, and references (Zheng et al., 2021). Nonetheless, these approaches generally fail to 
+adequately express organized logic, like nested restrictions or condition -action relationships, which are f un
+
+[CONCLUSION]:
+ Conclusion 
+This research illustrates the efficacy of fine -tuning pre -trained language models, particularly BERT, for the 
+extraction of legal limitations and eligibility criteria from unstructured policy texts.  The model attained elevated 
+validation accuracy, robust F1 -scores, and minimal overfitting signs, signifying its capacity to effectively learn and 
+generalize from intricate legal language.  The investigation of confidence distribution reinforces the model's 
+consistency and judgment dependability across different clause types. Notwithstanding these advantages, difficulties 
+persi
+
+=======================================================
+PAPER FILE: 14.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+ 
+Contents lists available at ScienceDirect
+Machine Learning with Applications
+journal homepage: www.elsevier.com/locate/mlwa  
+Software engineering meets legal texts: LLMs for auto detection of contract 
+smellsI
+Moriya Dechtiar a
+ ,∗, Daniel Martin Katz b,c,d, Hongming Wang a
+a Harvard University, Cambridge, 02138, MA, USA
+b Illinois Tech-Chicago Kent College of Law, Chicago, 60616, IL, USA
+c CodeX - The Stanford Center for Legal Informatics, Stanford, 94305, CA, USA
+d Center for Legal Technology & Data Science, Bucerius Law School, Hamburg, 20355, Germany
+A R T I C L E  I N F O
+Keywords:
+LLMs
+Legal AI
+Hyper-parameters fine tuning
+BERT
+Contract smells
+Semi-automated labeling
+ A B S T R A C T
+Although there have been many major advances in Artificial Intelligence including its application to a wide 
+variety of tasks, some specialized domains remain difficult to tackle. In this work, we examine parallels between 
+software engineering and legal contract drafting and analysis. Porting wel
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[RESULTS]:
+ results were achieved using task-specific data. We further demonstrate that 
+although multi-class detection can boost coverage of rare smells, single-class detection yields better accuracy. 
+While this is an initial foray into the idea of contract smells, this work underscores the feasibility of applying 
+advanced NLP techniques and LLMs to automate aspects of legal contract review, suggesting a scalable path 
+toward standardized, machine-assisted legal drafting and analysis.
+1. Introduction
+In software engineering, there is a well-known concept of ‘‘code 
+smells’’ which are easily detected co
+
+[CONCLUSION]:
+ Conclusions
+In this work, we propose "contract smells’’, importing software engi-
+neering principles to legal contract anomaly detection. We believe this 
+approach offers immense potential for transforming the task of contract 
+review and drafting. Namely, our results highlight the potential for 
+automated contract review to reduce drafting errors, mitigate risk, and 
+accelerate the standardizing of machine-assisted legal error detection. 
+Our achieved results on this current collection of contracts, are even 
+more impactful for real life application, when they can be applied to 
+contracts muc
+
+=======================================================
+PAPER FILE: 15.pdf
+=======================================================
+--- FIRST 1000 CHARS ---
+Automated construction contract analysis for risk and responsibility 
+assessment using natural language processing and machine learning
+Irem Dikmen
+a , *
+, Gorkem Eken
+b
+, Huseyin Erol
+c
+, M. Talat Birgonul
+d
+a
+University of Reading, Whiteknights Campus, School of the Built Environment, Chancellor ’ s Building, Reading, Berkshire RG6 6AH, UK
+b
+Middle East Technical University, Civil Engineering Department, K1 Building, Ankara 06800, Turkey
+c
+Postdoc researcher in University of Reading, Whiteknights Campus, School of the Built Environment, Chancellor ’ s Building, Reading, Berkshire RG6 6AH, UK
+d
+Emeritus Professor in Middle East Technical University, Civil Engineering Department, K1 Building, Ankara 06800, Turkey
+ARTICLE INFO
+Keywords:
+Automated contract review
+Natural Language Processing (NLP)
+Machine Learning (ML)
+Artificial Intelligence (AI)
+Text classification
+Construction risk management
+ABSTRACT
+Construction contracts contain critical risk-related information that requires in-dep
+
+--- ABSTRACT / METHODOLOGY / RESULTS LOOKUP ---
+
+[ABSTRACT]:
+ ABSTRACT
+Construction contracts contain critical risk-related information that requires in-depth examination, yet tight 
+schedules for bidding limit the possibility of comprehensive review of extensive documents manually. This 
+research aims to develop models for automating the review of construction contracts to extract information on 
+risk and responsibility that will provide inputs for risk management plans. Models were trained on 2268 sen -
+tences from International Federation of Consulting Engineers templates and tested on an actual construction 
+project contract containing 1217 sentences. A taxonomy classified sentences into Heading, Definition, Obliga -
+tion, Risk, and Right categories with related parties of Contractor, Employer, and Shared. Twelve models 
+employing diverse Natural
+
+[RESULTS]:
+ result in disputes 
+and claims ( Hayati et al., 2019 ). Furthermore, employers may impose 
+amended clauses in standard-form contracts to transfer greater liabilities 
+onto contractors ( Mendis et al., 2013; Rameezdeen and Rodrigo, 2014 ). 
+If such one-sided clauses against their interests go unnoticed, contrac -
+tors face avoidable financial, operational, and legal risks during project 
+execution, leading to further conflicts.
+Analyzing construction contracts in a comprehensive way is thus 
+essential. Traditionally, construction professionals manually review 
+contracts to identify risks and ri
+
+[CONCLUSION]:
+ conclusions section discusses major 
+findings, contributions, limitations, and future research directions to -
+ward automating construction contract analysis.
+2. Literature review
+As a subfield of AI, NLP draws from linguistics and computer science 
+to develop algorithms that enable computers to understand, interpret, 
+and manipulate human language by processing textual data ( Salama and 
+El-Gohary, 2016 ). Key application areas of NLP include language 
+translation, text classification, speech recognition, and information 
+extraction. In recent years, the popularity of NLP has surged with the 

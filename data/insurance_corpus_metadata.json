@@ -1,0 +1,26 @@
+{
+  "dataset_name": "Custom Insurance Policy Corpus",
+  "total_policies": 40,
+  "domains": [
+    "Health Insurance",
+    "Motor Vehicle Insurance",
+    "Travel Insurance",
+    "Life & Disability Insurance"
+  ],
+  "top_providers": [
+    "HDFC ERGO Health Insurance",
+    "Star Health & Allied Insurance",
+    "ICICI Lombard General Insurance",
+    "Care Health Insurance",
+    "Bajaj Allianz General Insurance",
+    "Tata AIG General Insurance",
+    "Bupa Global Health",
+    "Allianz Global Assistance"
+  ],
+  "taxonomy_mapping": {
+    "Waiting Periods": "Category A (Pre-existing diseases, specific surgery delays)",
+    "Sub-Limits & Caps": "Category B (Room rent caps, ICU caps, cataract limits)",
+    "Non-Payable Items & Consumables": "Category C (PPE, registration fees, diagnostic charges)",
+    "Co-Payment Mandates": "Category D (Mandatory patient percentage share)"
+  }
+}

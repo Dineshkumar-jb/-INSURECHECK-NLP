@@ -1,0 +1,22 @@
+[
+  {
+    "text": "Pre-existing disease claims carry a 36-month waiting period.",
+    "label": "Waiting Periods"
+  },
+  {
+    "text": "Room rent capping of 1% sum insured applies per day.",
+    "label": "Sub-Limits & Caps"
+  },
+  {
+    "text": "Registration fees and PPE gloves are non-payable consumables.",
+    "label": "Non-Payable Items & Consumables"
+  },
+  {
+    "text": "Mandatory 20% co-payment applies for senior citizens.",
+    "label": "Co-Payment Mandates"
+  },
+  {
+    "text": "Emergency ambulance cover up to $50 per trip is included.",
+    "label": "Standard Coverage"
+  }
+]

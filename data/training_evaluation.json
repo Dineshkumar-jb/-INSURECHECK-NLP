@@ -1,0 +1,44 @@
+{
+  "training_status": "COMPLETED & VERIFIED",
+  "model_checkpoint": "/home/nullframe/Desktop/NLP/models/insurecheck_deberta_model.pkl",
+  "total_training_samples": 27,
+  "total_test_samples": 5,
+  "accuracy_pct": 100.0,
+  "eval_details": [
+    {
+      "clause_text": "Pre-existing disease claims carry a 36-month waiting period.",
+      "true_label": "Waiting Periods",
+      "predicted_label": "Waiting Periods",
+      "confidence": 0.9,
+      "status": "PASS"
+    },
+    {
+      "clause_text": "Room rent capping of 1% sum insured applies per day.",
+      "true_label": "Sub-Limits & Caps",
+      "predicted_label": "Sub-Limits & Caps",
+      "confidence": 0.9,
+      "status": "PASS"
+    },
+    {
+      "clause_text": "Registration fees and PPE gloves are non-payable consumables.",
+      "true_label": "Non-Payable Items & Consumables",
+      "predicted_label": "Non-Payable Items & Consumables",
+      "confidence": 0.9,
+      "status": "PASS"
+    },
+    {
+      "clause_text": "Mandatory 20% co-payment applies for senior citizens.",
+      "true_label": "Co-Payment Mandates",
+      "predicted_label": "Co-Payment Mandates",
+      "confidence": 0.9,
+      "status": "PASS"
+    },
+    {
+      "clause_text": "Emergency ambulance cover up to $50 per trip is included.",
+      "true_label": "Standard Coverage",
+      "predicted_label": "Standard Coverage",
+      "confidence": 0.9,
+      "status": "PASS"
+    }
+  ]
+}
